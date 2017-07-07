@@ -1,10 +1,12 @@
 language: node_js
-node_js:
-  - 0.12
+node_js: stable
 install:
   - npm install
-  - git config user.email "yaojingshuihudie@163.com"
-  - git config user.name "Esther Li"
+before_install:
+  - git submodule update --init --remote --recursive
 script:
   - hexo generate
+after_script:
+  - git config --global user.email "yaojingshuihudie@163.com"
+  - git config --global user.name "29Esther"
   - hexo deploy
