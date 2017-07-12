@@ -1,0 +1,85 @@
+---
+title: Use Hexo Build Bolg in Github and Connect to your website
+---
+
+**Recommend read the whole article throught before taking actions**
+
+# What do you need?
+#### Required
+* An account in [Github](https://github.com)
+* Git in your computer
+* Node.js
+#### Optional
+* Your own personalized domain, like: LycheeX.com 
+* An account in [Cloudflare](https://www.cloudflare.com/) for certification (**https** looks really cool!)
+* [Travis-ci](https://travis-ci.org/) for continuious integration
+
+# Step by Step Guidance
+### Follow the step in [Hexo Doc](https://hexo.io/docs/) to install Git, Node.js and Hexo
+The doc gives a short and clear introduction in Hexo as well as detailed guidance of installation of Node.js and Git Tool.
+
+**Special for Mac User:** Installing Node.js® and NPM is pretty straightforward using Homebrew. Homebrew handles downloading, unpacking and installing Node and NPM on your system. The whole process (after you have Homebrew installed) should only take you a few minutes.
+
+**Installation Steps:**
+Open the Terminal app and type 
+
+`$ brew update //This updates Homebrew with a list of the latest version of Node`
+
+`$ brew install node //Tell Homebrew to install Node`
+
+Test:
+
+`$ node -v //This should print the version number of node, ike v0.10.31`
+
+
+`$ npm -v //This should print the version number of npm like this 1.4.27`
+
+### Genernate Hexo Blog
+`$ hexo init [folder] //Initializes a website. If no folder is provided, Hexo will set up the website in the current directory`
+`$ hexo generate //Generates static files`
+`$ hexo server //Starts a local server. By default, this is at http://localhost:4000/`
+Open http://localhost:4000 and enjoy
+More command information, you can refet to [Hexo Command Doc](https://hexo.io/docs/commands.html)
+
+### Choose a theme
+Lots of developers donated their theme to Hexo, which can save us plenty of time to design and develop. It's nice and easy to use. Of course, you can develop your own theme if you want to. I am not sure about the detailed information, but it can be found in the website.
+
+As for me, I chose the theme [Cactus Light](https://github.com/gabithume/cactus-light). Normally, the theme repository on github provides you the steps of add them to your hexo project. Genernally, following things:
+1. In the root directory of your project:
+
+`$ git clone <theme-git-location> themes/<theme-name> `
+
+2. Change the theme property in the _config.yml file under your project
+```
+# theme: landscape
+theme: cactus-light
+```
+
+3. Enter theme/<theme-name> folder and change _config.yml file to configure your information to the template
+
+4. Run: 
+
+`$ hexo generate` and `$ hexo server`
+
+### Add a article
+
+`hexo new [layout] <title>`
+This command is used to create a new article. If no layout is provided, Hexo will use the default_layout from _config.yml. If the title contains spaces, surround it with quotation marks.
+Then a new .md file will be created in '<your-project>/source/_posts' folder.
+Use any tool you like to edit it. After that, use the following steps:
+```
+hexo clean
+hexo generate
+hexo deploy
+hexo server
+```
+Now, you are able to see your new blog in [http://localhost:4000](http://localhost:4000).
+
+### Connect to Github
+
+未完待续！！
+
+
+Reference:
+1. [Add Free Certification In Blog Step By Step](http://troyyang.com/2017/05/21/Add_Free_Certification_In_Blog_Step_By_Step/)
+2. [Hexo Command Doc](https://hexo.io/docs/commands.html)
