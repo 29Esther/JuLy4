@@ -1,12 +1,16 @@
 language: node_js
 node_js: stable
 install:
-  - npm install
+- npm install
 before_install:
-  - git submodule update --init --remote --recursive
+- git submodule update --init --remote --recursive
 script:
-  - hexo generate
+- hexo generate
 after_script:
-  - git config --global user.email "yaojingshuihudie@163.com"
-  - git config --global user.name "29Esther"
-  - hexo deploy
+- git config --global user.email "yaojingshuihudie@163.com"
+- git config --global user.name "29Esther"
+- sed -i'' "/^ *repo/s~github\.com~${GH_TOKEN}@github.com~" _config.yml
+- hexo deploy
+env:
+  global:
+    secure: FQnglRZILpeaXiH7pyU3CD8PScpRHeJV1qexjFwytx8f2fp8xSoPbsB/8qBw0q/rm2WukDLPR7KEePHR7V2AR4YP02jlijrpR0wJ0uqq2k3Gf4q6mdh3qRFbho/R6bg+Lshnw9IO+iI9lbf96p1r+UYWO78TC3Ggw5GVuprCIOxAcjWhNl5sTaYo2TuFc1kcVnn+hJtTqtIqWt0N4ObGG8eqEAPyLhAGnDQbp67ePCzSNc2eTbhVSr4jTwJjOZ6Mvss6jKDdr1CYtdQhdkgMc5bb+wZpJ4Zb5R3wtyVyQhRM3K00h20YtpnPrhEtyvjvNz8abDUVwXTPMYZb4N/c5Pi+CGbOLYboCScl8p2Rxv3eUxWzkLlTg8rFvA0corKGWG0mu/gaV+0JHRq3V6G7qDDumDvBRc+c1VXUP2UJ1TCFuxKPf10ojcxh0Eb15+tMkcC9IKExSBufdadwHHJSJ037TSWSY9K6/6i5lASQEEvrKGIPMBrzK0pnZElT+BHO7JwTHD5F7TXT+my0tYy+q/Z3QWJqHh0eGejg/82leJd8DSrfQcx8hThKM4xW+tod2zbRlssuyxWfcp9yM6FPpGzIRGmSb9ng3PLslPi+gCQQkbDlljvf5WD//t+VfGQDYGPAFHVOBxSQ0JaUiRQ8SwCkiTJlVWGJd65/FXXXRHM=
