@@ -1,50 +1,68 @@
 ---
 title: Use Hexo Build Bolg in Github and Connect to your website
+date: 2017-07-12 22:33:56
+tags: [Github, Hexo]
 ---
 
 **Recommend read the whole article throught before taking actions**
 
 # What do you need?
-#### Required
+### Required
 * An account in [Github](https://github.com)
 * Git in your computer
 * Node.js
-#### Optional
+
+### Optional
 * Your own personalized domain, like: LycheeX.com 
 * An account in [Cloudflare](https://www.cloudflare.com/) for certification (**https** looks really cool!)
 * [Travis-ci](https://travis-ci.org/) for continuious integration
 
 # Step by Step Guidance
-### Follow the step in [Hexo Doc](https://hexo.io/docs/) to install Git, Node.js and Hexo
+## Follow the step in [Hexo Doc](https://hexo.io/docs/) to install Git, Node.js and Hexo
 The doc gives a short and clear introduction in Hexo as well as detailed guidance of installation of Node.js and Git Tool.
 
-**Special for Mac User:** Installing Node.js® and NPM is pretty straightforward using Homebrew. Homebrew handles downloading, unpacking and installing Node and NPM on your system. The whole process (after you have Homebrew installed) should only take you a few minutes.
+### Special for Mac User:
+Installing Node.js® and NPM is pretty straightforward using Homebrew. Homebrew handles downloading, unpacking and installing Node and NPM on your system. The whole process (after you have Homebrew installed) should only take you a few minutes.
 
 **Installation Steps:**
 Open the Terminal app and type 
 
-`$ brew update //This updates Homebrew with a list of the latest version of Node`
+```
+$ brew update 
+// This updates Homebrew with a list of the latest version of Node
 
-`$ brew install node //Tell Homebrew to install Node`
+$ brew install node 
+// Tell Homebrew to install Node
+```
 
-Test:
+**Test:**
+```
+$ node -v 
+// This should print the version number of node, ike v0.10.31
 
-`$ node -v //This should print the version number of node, ike v0.10.31`
+$ npm -v 
+// This should print the version number of npm like this 1.4.27
+```
 
-
-`$ npm -v //This should print the version number of npm like this 1.4.27`
-
-### Genernate Hexo Blog
-`$ hexo init [folder] //Initializes a website. If no folder is provided, Hexo will set up the website in the current directory`
-`$ hexo generate //Generates static files`
-`$ hexo server //Starts a local server. By default, this is at http://localhost:4000/`
+## Genernate Hexo Blog
+```
+$ hexo init [folder] 
+// Initializes a website. If no folder is provided, Hexo will set up the website in the current directory
+$ hexo generate 
+// Generates static files
+$ hexo server 
+// Starts a local server. By default, this is at http://localhost:4000/
 Open http://localhost:4000 and enjoy
+```
+
 More command information, you can refet to [Hexo Command Doc](https://hexo.io/docs/commands.html)
 
-### Choose a theme
-Lots of developers donated their theme to Hexo, which can save us plenty of time to design and develop. It's nice and easy to use. Of course, you can develop your own theme if you want to. I am not sure about the detailed information, but it can be found in the website.
+## Choose a theme
+Lots of developers donated their theme to Hexo, which can save us plenty of time for designing and developing. It's nice and easy to use. Of course, you can develop your own theme if you want to. I am not sure about the detailed information, but it can be found in the website.
 
-As for me, I chose the theme [Cactus Light](https://github.com/gabithume/cactus-light). Normally, the theme repository on github provides you the steps of add them to your hexo project. Genernally, following things:
+As for me, I chose the theme [Cactus Light](https://github.com/gabithume/cactus-light). Normally, the theme repository on github provides you the steps of add them to your hexo project. 
+
+Genernally, following things:
 1. In the root directory of your project:
 
 `$ git clone <theme-git-location> themes/<theme-name> `
@@ -55,13 +73,11 @@ As for me, I chose the theme [Cactus Light](https://github.com/gabithume/cactus-
 theme: cactus-light
 ```
 
-3. Enter theme/<theme-name> folder and change _config.yml file to configure your information to the template
+3. Enter 'theme/<theme-name>' folder and change _config.yml file to configure your information to the template
 
-4. Run: 
+4. Run: `$ hexo generate` and `$ hexo server`
 
-`$ hexo generate` and `$ hexo server`
-
-### Add a article
+## Create a new article
 
 `hexo new [layout] <title>`
 This command is used to create a new article. If no layout is provided, Hexo will use the default_layout from _config.yml. If the title contains spaces, surround it with quotation marks.
@@ -75,11 +91,63 @@ hexo server
 ```
 Now, you are able to see your new blog in [http://localhost:4000](http://localhost:4000).
 
-### Connect to Github
+## Put it online using Github
+You need to have a github account. Registering one is as easy as creating an account in Weibo.
 
-未完待续！！
+Then, you need to create a repository using the name '<your-user-name>.github.io'.
+
+Now, let's get back to your local environment from the web world. 
+
+Edit '_config.yml' file in the root directory of your project.
+Change the deploy node like this:
+```
+deploy:
+     type: git
+     repo: https://github.com/<your-user-name>/<your-user-name>.github.io.git
+     branch: master
+```
+
+Now, it's time to deploy to the website.
+
+Hold on, type following code when you are ready.
+```
+npm install hexo-deployer-git --save
+// This is install a package for deploying, you only need to type this once.
+hexo deploy
+```
+
+Then, open the http://<your-user-name>.github.io to enjoy your website. It should look the same with [http://localhost:4000](http://localhost:4000).
+
+## Connect to your own domain.
+Go to the setting page in the respository. 
+![Github Setting](../../../../pics/github-setting.png)
+Enter your domain in the input and click save.
+![Add a Domain](../../../../pics/add-a-domain.png)
+After that, you can visit your website and see the blog.
+
+## Connect to github 
+Now all the work is done. You can visit your website from anywhere, add a new article or editing an existing one.
+However, now you can only edit it in your computer. If you want to put the sources online and edit it anywhere, github is a good help.
+
+Create another repository in Github, give it any name you like. Here, I will use 'you-like' as an Example.
+
+In the root directory of your project， type：
+```
+$ git init
+// this will change your project to a git one.
+$ git remote add origin <your-repositoy-location>
+// <your-repositoy-location> should be git@github.com:<your-username>/<your-repository-name>.git
+$ git add *
+$ git commit -m "First Commit"
+$ git push
+```
+
+If you meet some authentication problems during the process, you can check that if you have connected your coputer to Github. Follow the steps in [Connecting to GitHub with SSH](https://help.github.com/articles/connecting-to-github-with-ssh/) to solve the problems.
+
+Now you have pushed your original resource to the website. Which means you no longer need to worry about the loss of your project. Every time you change something, just commit them to the Github.
 
 
-Reference:
+
+# Reference:
 1. [Add Free Certification In Blog Step By Step](http://troyyang.com/2017/05/21/Add_Free_Certification_In_Blog_Step_By_Step/)
 2. [Hexo Command Doc](https://hexo.io/docs/commands.html)
