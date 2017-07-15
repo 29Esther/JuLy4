@@ -69,5 +69,5 @@ theme: cactus-light
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://${GitHub_TOKEN}@github.com/29Esther/29esther.github.io.git
+  repo: https://${GitHub_Token}@github.com/29Esther/29esther.github.io.git
   branch: master
