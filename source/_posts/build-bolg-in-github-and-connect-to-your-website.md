@@ -146,6 +146,41 @@ If you meet some authentication problems during the process, you can check that 
 
 Now you have pushed your original resource to the website. Which means you no longer need to worry about the loss of your project. Every time you change something, just commit them to the Github.
 
+Check the project in github, the folder of the theme that you added may be empty. It is skipped by git because it contains another git log. So the easiest solution is to delete the .git folder and then commit again.
+
+## Using Travis-ci to deploy the project on commit
+CI is short for Continuous Integration. [Travis-ci](https://travis-ci.org/) is one of the most popular website for CI. You could login with your github account and then it will get all your reporsitory.
+![travis-ci](../../../../pics/travis-ci.png)
+Switch on the repository of your project and enter the setting of the repository in travis-ci.
+![travid-ci-setting](../../../../pics/travis-ci-setting.png)
+Switch on the 'Build only if .travis.yml is present'.
+
+Now, let's get back to the repositroy in your computer.
+Add a new file '.travis.yml' in the root direction. This is for configuration of travis-ci.
+```
+language: node_js
+node_js: stable
+install:
+- npm install
+before_install:
+- git submodule update --init --remote --recursive
+script:
+- hexo generate
+after_script:
+- git config --global user.email "<your-user-email-in-github>"
+- git config --global user.name "<your-user-name-in-github>"
+- sed -i'' "/^ *repo/s~github\.com~${GH_TOKEN}@github.com~" _config.yml
+- hexo deploy
+// The following is required only when you need to use your own domain
+- cd /home/travis/build/<your-user-name-in-github>/<your-hexo-repository-name-in-github>/.deploy_git/
+- echo "<your-domain>.com" > CNAME
+- git add CNAME
+- git commit -m "Add CNAME"
+- git push https://${GH_TOKEN}@github.com/<your-user-name-in-github>/<your-user-name-in-github>.github.io.git
+```
+
+You must
+
 
 
 # Reference:
