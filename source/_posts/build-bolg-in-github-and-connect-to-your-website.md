@@ -3,15 +3,12 @@ title: Use Hexo Build Bolg in Github and Connect to your website
 date: 2017-07-12 22:33:56
 tags: [Github, Hexo]
 ---
-
 **Recommend read the whole article throught before taking actions**
-
 # What do you need?
 ### Required
 * An account in [Github](https://github.com)
 * Git in your computer
 * Node.js
-
 ### Optional
 * Your own personalized domain, like: LycheeX.com 
 * An account in [Cloudflare](https://www.cloudflare.com/) for certification (**https** looks really cool!)
@@ -178,9 +175,6 @@ after_script:
 - git commit -m "Add CNAME"
 - git push https://${GH_TOKEN}@github.com/<your-user-name-in-github>/<your-user-name-in-github>.github.io.git
 ```
-
-You must
-
 
 
 # Reference:
