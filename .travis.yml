@@ -12,7 +12,7 @@ after_script:
 - sed -i'' "/^ *repo/s~github\.com~${GH_TOKEN}@github.com~" _config.yml
 - hexo deploy
 - cd /home/travis/build/29Esther/JuLy4/.deploy_git/
-- echo "lycheex.com" > CNAME
+- echo "esther.fun" > CNAME
 - git add CNAME
 - git commit -m "Add CNAME"
 - git push https://${GH_TOKEN}@github.com/29Esther/29esther.github.io.git
