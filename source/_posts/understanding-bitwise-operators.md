@@ -9,14 +9,14 @@ tags: [Learning, Algorithms]
 * ~ (bitwise NOT)
 * ^ (bitwise XOR)
 * << (bitwise left shift)
-* >> (bitwise right shift)
-* >>> (bitwise unsigned right shift)
+* \>\> (bitwise right shift)
+* \>\>\> (bitwise unsigned right shift)
 * &= (bitwise AND assignment)
 * |= (bitwise OR assignment)
 * ^= (bitwise XOR assignment)
 * <<= (bitwise left shift and assignment)
-* >>= (bitwise right shift and assignment)
-* >>>= (bitwise unsigned right shift and assignment)
+* \>\>= (bitwise right shift and assignment)
+* \>\>\>= (bitwise unsigned right shift and assignment)
 
 # & 与
 0 & 0 = 0
@@ -59,16 +59,6 @@ var determineConditions = function (options) {
 }
 
 determineConditions(option1 | option3);
-```
-
-# ~ 非
-~0 = 1
-~1 = 0
-
-Usage: 补数
-```
-var num = 37, cnum = ~num + 1; 
-log(cnum + num === 0);
 ```
 
 # ~ 非
