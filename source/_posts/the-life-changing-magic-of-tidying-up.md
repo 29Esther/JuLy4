@@ -3,6 +3,7 @@ title: The Life-Changing Magic of Tidying Up
 date: 2019-11-08 22:33:56
 tags: [Reading, Reading101]
 ---
+<img src="../../../../pics/dsl.jpg" alt="断舍离" width="100">
 
 # 说在前面
 每天上下班的时候，在拥挤的地铁里看这本小书，我还挺享受的。大概花了一个礼拜看完，这种书看起来真的蛮轻松的。
@@ -174,4 +175,3 @@ tags: [Reading, Reading101]
 物品处于恰当的位置，才能展现美感--离
 
 # See you next book!
-![断舍离](../../../../pics/dsl.jpg)
