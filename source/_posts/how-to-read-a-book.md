@@ -1,9 +1,10 @@
 ---
-title: How to Read A Book
+title: How to Read a Book
 date: 2019-11-17 16:35:56
 tags: [Reading, Reading101]
 ---
 <img src="../../../../pics/how2read1book.jpg" alt="如何阅读一本书" width="100">
+
 # 说在前面
 这本书真的很难看，hard to read。这种论说指导型的书籍，没有小说精彩，还很长，真的很难看书的时候不睡着。
 这是我第二次拿起这本书在看了，第一次就是无疾而终，翻了前几章，就没在看下去了，这次终于坚持着看完了。
