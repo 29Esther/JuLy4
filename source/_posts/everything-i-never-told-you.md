@@ -1,9 +1,9 @@
 ---
-title: Everyting I Never Told You
+title: Everything I Never Told You
 date: 2020-03-03 11:15:00
 tags: [Reading, Reading101]
 ---
-<img src="../../../../pics/everyting-i-never-told-you.jpg" alt="无声告白" width="100">
+<img src="../../../../pics/everything-i-never-told-you.jpg" alt="无声告白" width="100">
 
 # 说在前面
 几个月后，终于又打开了书，感谢shuxian的督促。
