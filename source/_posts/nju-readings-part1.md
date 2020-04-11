@@ -1,6 +1,6 @@
 ---
 title: 南大读本-社会/自然科学卷
-date: 2020-04-05 18:11:22
+date: 2020-04-11 10:40:22
 tags: [Reading, Reading101]
 ---
 <img src="../../../../pics/nju-readings-part1.jpg" alt="南大读本-社会/自然科学卷" width="100">
