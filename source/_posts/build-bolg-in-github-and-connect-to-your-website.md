@@ -1,7 +1,11 @@
 ---
 title: Use Hexo Build Bolg in Github and Connect to your website
 date: 2017-07-12 22:33:56
-tags: [Github, Hexo]
+tags:
+- Github
+- Hexo
+categories:
+- tech
 ---
 **Recommend read the whole article throught before taking actions**
 # What do you need?

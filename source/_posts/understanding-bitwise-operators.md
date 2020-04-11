@@ -1,7 +1,10 @@
 ---
 title: Understanding Bitwise Operators
 date: 2019-10-10 15:25:56
-tags: [Learning, Algorithms]
+tags:
+- Algorithms
+categories:
+- tech
 ---
 
 * & (bitwise AND)

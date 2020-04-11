@@ -1,7 +1,11 @@
 ---
 title: Pitch Building Blocks
 date: 2020-03-08 22:35:56
-tags: [Learning, Pitch, SoftSkills]
+tags:
+- Reading
+- Reading101
+categories:
+- writing
 ---
 # PITCH
 A pitch typically serves 4 purposes:

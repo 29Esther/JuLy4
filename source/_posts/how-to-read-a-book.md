@@ -1,7 +1,11 @@
 ---
 title: How to Read a Book
 date: 2019-11-17 16:35:56
-tags: [Reading, Reading101]
+tags:
+- Reading
+- Reading101
+categories:
+- writing
 ---
 <img src="../../../../pics/how2read1book.jpg" alt="如何阅读一本书" width="100">
 

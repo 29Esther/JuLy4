@@ -14,6 +14,7 @@
   </p>
 </section>
 
+<% if (theme.customize.show_writing) { %>
 <section id="writing">
   <span class="h1"><a href="<%- url_for("archives") %>">Writing</a></span>
   <ul class="post-list">
@@ -33,8 +34,9 @@
     <%- partial('_partial/pagination') %>
   <% } %>
 </section>
+<% } %>
 
-<% if (site.data.projects) { %>
+<% if (theme.customize.show_projects && site.data.projects) { %>
 <section id="projects">
   <span class="h1"><a href="<%- url_for(theme.projects_url) %>">Projects</a></span>
   <ul class="project-list">

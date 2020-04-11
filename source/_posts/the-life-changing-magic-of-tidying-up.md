@@ -1,7 +1,11 @@
 ---
 title: The Life-Changing Magic of Tidying Up
 date: 2019-11-08 22:33:56
-tags: [Reading, Reading101]
+tags:
+- Reading
+- Reading101
+categories:
+- writing
 ---
 <img src="../../../../pics/dsl.jpg" alt="断舍离" width="100">
 

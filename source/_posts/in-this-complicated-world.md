@@ -1,7 +1,10 @@
 ---
 title: 在这个复杂世界里
 date: 2017-08-14 17:55:56
-tags: [Reading, Literature, Books]
+tags:
+- Reading
+categories:
+- writing
 ---
 ## 《他人只是自己眼中的故事》
 他人只是自己眼中的故事而已，为了满足自己心中的情感抒发，别人所有的事情都是故事。

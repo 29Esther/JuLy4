@@ -1,6 +1,7 @@
 nav:
   Home: /
-  Writing: /archives/
+  Writing: /categories/writing/
+  Tech: /categories/tech/
   ❤: /love/
 
 customize:
@@ -27,8 +28,10 @@ customize:
         github: https://github.com/29Esther
         weibo: http://weibo.com/2249721655/profile?topnav=1&wvr=6
         linkedin: https://www.linkedin.com/in/lizhixuan
-    show_all_posts: true
-    # post_count: 5
+    show_writing: false
+    show_projects: false
+    show_all_posts: false
+    post_count: 0
     highlight: tomorrow-night-bright
 
 # RSS

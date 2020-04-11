@@ -1,7 +1,11 @@
 ---
 title: Longest Palindromic Substring
 date: 2017-08-01 17:55:56
-tags: [Learning, Algorithms, LeetCode]
+tags:
+- LeetCode
+- Algorithms
+categories:
+- tech
 ---
 最近过的真的很抓狂，今天终于有点小小时间，可以记录下这个几天前就完成了的事情。
 我的算法真的很差，就和我的编程能力一样，所以希望可以一点点的提高啦！
