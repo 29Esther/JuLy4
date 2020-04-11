@@ -114,17 +114,17 @@ Olson的主要贡献是开创性地论证了集体行动中普遍存在的搭便
 我目前为止，写得最长的一篇读书笔记了，可能这个记录还会保持很久的时间。
 写这个笔记的时候，我又把书重新读了一篇，真的是每一遍都有新的发现。宝藏！
 ### 当前排行榜：
-- 世界是平的——21世纪简史（托马斯·弗里德曼）
-- 新卖桔者言（Steve. N.S. Chueng, 张五常）
-- 量子之谜——物理学遇到意识（布鲁斯·罗森布鲁姆）
-- 漫游诺贝尔奖创造的世界一——化学之旅（李钟镐）
-- 中国人（林语堂）
-- 信息简史（James Gleick）
-- 乡土中国（费孝通）
-- 时间简史——从大爆炸到黑洞（Stephen Hawking）
-- 什么是数学：对思想和方法的基本研究（Richard Courant）
-- 大流感——最致命瘟疫的史诗（约翰·M·巴里）
-- 千亿个太阳——恒星的诞生、演变和衰亡（鲁道夫）
+- [世界是平的——21世纪简史（托马斯·弗里德曼）](https://esther.fun/2020/04/11/nju-readings-part1/#%E4%B8%96%E7%95%8C%E6%98%AF%E5%B9%B3%E7%9A%84%E2%80%94%E2%80%9421%E4%B8%96%E7%BA%AA%E7%AE%80%E5%8F%B2%EF%BC%88%E6%89%98%E9%A9%AC%E6%96%AF%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9B%BC%EF%BC%89)
+- [新卖桔者言（Steve. N.S. Chueng, 张五常）](https://esther.fun/2020/04/11/nju-readings-part1/#%E6%96%B0%E5%8D%96%E6%A1%94%E8%80%85%E8%A8%80%EF%BC%88Steve-N-S-Chueng-%E5%BC%A0%E4%BA%94%E5%B8%B8%EF%BC%89)
+- [量子之谜——物理学遇到意识（布鲁斯·罗森布鲁姆）](https://esther.fun/2020/04/11/nju-readings-part1/#%E9%87%8F%E5%AD%90%E4%B9%8B%E8%B0%9C%E2%80%94%E2%80%94%E7%89%A9%E7%90%86%E5%AD%A6%E9%81%87%E5%88%B0%E6%84%8F%E8%AF%86%EF%BC%88%E5%B8%83%E9%B2%81%E6%96%AF%C2%B7%E7%BD%97%E6%A3%AE%E5%B8%83%E9%B2%81%E5%A7%86%EF%BC%89)
+- [漫游诺贝尔奖创造的世界一——化学之旅（李钟镐）](https://esther.fun/2020/04/11/nju-readings-part1/#%E6%BC%AB%E6%B8%B8%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96%E5%88%9B%E9%80%A0%E7%9A%84%E4%B8%96%E7%95%8C%E4%B8%80%E2%80%94%E2%80%94%E5%8C%96%E5%AD%A6%E4%B9%8B%E6%97%85%EF%BC%88%E6%9D%8E%E9%92%9F%E9%95%90%EF%BC%89)
+- [中国人（林语堂）](https://esther.fun/2020/04/11/nju-readings-part1/#%E4%B8%AD%E5%9B%BD%E4%BA%BA%EF%BC%88%E6%9E%97%E8%AF%AD%E5%A0%82%EF%BC%89)
+- [信息简史（James Gleick）](https://esther.fun/2020/04/11/nju-readings-part1/#%E4%BF%A1%E6%81%AF%E7%AE%80%E5%8F%B2%EF%BC%88James-Gleick%EF%BC%89)
+- [乡土中国（费孝通）](https://esther.fun/2020/04/11/nju-readings-part1/#%E4%B9%A1%E5%9C%9F%E4%B8%AD%E5%9B%BD%EF%BC%88%E8%B4%B9%E5%AD%9D%E9%80%9A%EF%BC%89)
+- [时间简史——从大爆炸到黑洞（Stephen Hawking）](https://esther.fun/2020/04/11/nju-readings-part1/#%E6%97%B6%E9%97%B4%E7%AE%80%E5%8F%B2%E2%80%94%E2%80%94%E4%BB%8E%E5%A4%A7%E7%88%86%E7%82%B8%E5%88%B0%E9%BB%91%E6%B4%9E%EF%BC%88Stephen-Hawking%EF%BC%89)
+- [什么是数学：对思想和方法的基本研究（Richard Courant）](https://esther.fun/2020/04/11/nju-readings-part1/#%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%A6%EF%BC%9A%E5%AF%B9%E6%80%9D%E6%83%B3%E5%92%8C%E6%96%B9%E6%B3%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A0%94%E7%A9%B6%EF%BC%88Richard-Courant%EF%BC%89)
+- [大流感——最致命瘟疫的史诗（约翰·M·巴里）](https://esther.fun/2020/04/11/nju-readings-part1/#%E5%A4%A7%E6%B5%81%E6%84%9F%E2%80%94%E2%80%94%E6%9C%80%E8%87%B4%E5%91%BD%E7%98%9F%E7%96%AB%E7%9A%84%E5%8F%B2%E8%AF%97%EF%BC%88%E7%BA%A6%E7%BF%B0%C2%B7M%C2%B7%E5%B7%B4%E9%87%8C%EF%BC%89)
+- [千亿个太阳——恒星的诞生、演变和衰亡（鲁道夫）](https://esther.fun/2020/04/11/nju-readings-part1/#%E5%8D%83%E4%BA%BF%E4%B8%AA%E5%A4%AA%E9%98%B3%E2%80%94%E2%80%94%E6%81%92%E6%98%9F%E7%9A%84%E8%AF%9E%E7%94%9F%E3%80%81%E6%BC%94%E5%8F%98%E5%92%8C%E8%A1%B0%E4%BA%A1%EF%BC%88%E9%B2%81%E9%81%93%E5%A4%AB%EF%BC%89)
 
 
 # See you next book!
