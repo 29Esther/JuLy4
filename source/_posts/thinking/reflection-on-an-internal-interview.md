@@ -2,7 +2,7 @@
 title: Reflection on an Internal Interview
 date: 2019-07-30 18:10:56
 tags:
-- Reflections
+- Thinking
 categories:
 - writing
 ---

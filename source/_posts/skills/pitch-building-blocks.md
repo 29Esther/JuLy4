@@ -2,8 +2,7 @@
 title: Pitch Building Blocks
 date: 2020-03-08 22:35:56
 tags:
-- Reading
-- Reading101
+- Skills
 categories:
 - writing
 ---

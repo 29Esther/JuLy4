@@ -6,7 +6,7 @@
     "clean": "rm -rf public"
   },
   "hexo": {
-    "version": "4.1.0"
+    "version": "3.9.0"
   },
   "dependencies": {
     "hexo": "^4.0.0",
