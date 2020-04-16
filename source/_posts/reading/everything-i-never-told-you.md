@@ -7,7 +7,7 @@ tags:
 categories:
 - writing
 ---
-<img src="../../../../pics/everything-i-never-told-you.jpg" alt="无声告白" width="100">
+<img src="../../../../../pics/everything-i-never-told-you.jpg" alt="无声告白" width="100">
 
 # 说在前面
 几个月后，终于又打开了书，感谢shuxian的督促。

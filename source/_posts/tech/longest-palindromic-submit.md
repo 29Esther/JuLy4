@@ -241,7 +241,7 @@ var longestPalindrome = function(s) {
 ```
 这次总算是过了。
 可是一看效率统计结果，我脸都绿了。
-![统计结果1](../../../../pics/longest-palindromic-submit-1.png)
+![统计结果1](../../../../../pics/longest-palindromic-submit-1.png)
 
 ## Try No.7
 没事咱还有方法2呢，来详细说说方法2。
@@ -294,7 +294,7 @@ var longestPalindrome = function(s) {
 };
 ```
 效率统计结果总算是好了一点点了。没辙了这次。
-![统计结果2](../../../../pics/longest-palindromic-submit-2.png)
+![统计结果2](../../../../../pics/longest-palindromic-submit-2.png)
 
 ## 工整写法
 确实，while (true) 还有用flag的方法是挺低级的，看起来很弱智。

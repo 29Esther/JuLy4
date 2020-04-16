@@ -7,7 +7,7 @@ tags:
 categories:
 - writing
 ---
-<img src="../../../../pics/nju-readings-part1.jpg" alt="南大读本-社会/自然科学卷" width="100">
+<img src="../../../../../pics/nju-readings-part1.jpg" alt="南大读本-社会/自然科学卷" width="100">
 
 # 说在前面
 《南大读本》是南京大学悦读经典计划读物，是2016年南京大学统一发的。这书没有条码，也没有售价，完全是免费的，所以也避免了很多版权的问题吧……
