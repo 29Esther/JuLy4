@@ -12,6 +12,7 @@ after_script:
 - sed -i'' "/^ *repo/s~github\.com~${GH_TOKEN}@github.com~" _config.yml
 - hexo deploy
 - cd /home/travis/build/29Esther/JuLy4/.deploy_git/
+- git pull
 - echo "esther.fun" > CNAME
 - git add CNAME
 - git commit -m "Add CNAME"
