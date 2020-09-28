@@ -17,7 +17,7 @@ categories:
 期待在即将达到的10月开启我的手账生活！yo🎉yo🎉
 书记，按阅读顺序排列。
 
-<img src="../../../../../pics/journaling-and-notes-1.jpg" alt="手账系列" width="200">
+<img src="../../../../../pics/journaling-and-notes-0.jpg" alt="手账系列" width="200">
 
 # 注
 这本书翻译有两个版本，大陆版和台版。台版的封面更可爱一些，但是，价格高出很多。内容应该都是一样的。
@@ -179,7 +179,9 @@ categories:
 5. 专门准备“给别人看”的手账计划表
 6. 能让你成长的对象，才是“人脉”
 
-<img src="../../../../../pics/journaling-and-notes-2.jpg" alt="神奇手账" width="100">
+
+
+<img src="../../../../../pics/journaling-and-notes-1.jpg" alt="神奇手账" width="100">
 
 
 # 相关推荐
