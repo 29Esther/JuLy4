@@ -2,8 +2,8 @@ nav:
   Home: /
   Writing: /categories/writing/
   Tech: /categories/tech/
-  ❤: /love/
   📚: /books/
+  ❤: /love/
 
 customize:
     gravatar:
