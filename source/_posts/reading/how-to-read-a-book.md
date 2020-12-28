@@ -7,7 +7,6 @@ tags:
 categories:
 - writing
 ---
-<img src="../../../../../pics/how2read1book.jpg" alt="如何阅读一本书" width="100">
 
 # 说在前面
 这本书真的很难看，hard to read。这种论说指导型的书籍，没有小说精彩，还很长，真的很难看书的时候不睡着。
@@ -29,5 +28,7 @@ categories:
 # 后面说说
 终于看完了，真的不容易。不知道是翻译的问题，还是原著风格的原因，句子有很多晦涩难懂，动不动就弄个多重否定，晕死。而且，有很多逻辑、调理不清，我常常要看很多遍，有的时候为了对比，看到后面的时候还要翻回前面去，去理解前面的逻辑。截取一个片段，大家感受下。
 ![阅读故事、戏剧与诗的一些建议](../../../../../pics/how2read1book-lyric-poetry.jpg)
+
+<img src="../../../../../pics/how2read1book.jpg" alt="如何阅读一本书" width="100">
 
 # See you next book!
