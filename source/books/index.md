@@ -7,8 +7,11 @@ title: Books
 人类愚蠢辞典
 黑客与画家
 Clean Code
-穷查理宝鉴
 整理情绪的力量
+
+# 2021
+## Jul
+### [穷查理宝典](../reading/poor-charlies-almanack/)
 
 # 2020
 ## Dec
