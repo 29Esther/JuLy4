@@ -17,4 +17,8 @@ after_script:
 - git add CNAME
 - git commit -m "Add CNAME"
 - echo ${GH_TOKEN}
-- git push  --set-upstream https://${GH_TOKEN}@github.com/29Esther/29esther.github.io.git master
+- git push https://${GH_TOKEN}@github.com/29Esther/29esther.github.io.git
+
+env:
+  global:
+    secure: ${secure}
