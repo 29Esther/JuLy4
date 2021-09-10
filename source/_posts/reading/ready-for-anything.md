@@ -127,6 +127,6 @@ categories:
 
 
 # 重要内容
-<img src="../../../../../pics/ready-for-anything-working-content.png" alt="搞定II:提升工作与生活效率的52项原则" width="100">
+<img src="../../../../../pics/ready-for-anything-working-content.png" alt="搞定II:提升工作与生活效率的52项原则">
 
 <img src="../../../../../pics/ready-for-anything.png" alt="搞定II:提升工作与生活效率的52项原则" width="100">
