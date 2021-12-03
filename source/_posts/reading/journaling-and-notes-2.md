@@ -141,7 +141,7 @@ categories:
 2. 修图
 黄油相机：海洋、宇宙、硬朗滤镜
 
-<img src="../../../../../pics/journaling-and-notes-2.jpg" alt="幸运手账 + 手帐入坑指南" width="200">
+<img src="../../../../../pics/reading/jan/journaling-and-notes-2.jpg" alt="幸运手账 + 手帐入坑指南" width="200">
 
 # 相关推荐
 [神奇手账](../journaling-and-notes-1/)

@@ -151,7 +151,7 @@ categories:
 7. 用简单步骤画出逻辑式图解：画辅助线 -> 绘图 -> 擦掉辅助线
 
 
-<img src="../../../../../pics/journaling-and-notes-4.jpg" alt="聪明人用方格笔记本" width="100">
+<img src="../../../../../pics/reading/jan/journaling-and-notes-4.jpg" alt="聪明人用方格笔记本" width="100">
 
 # 相关推荐
 [神奇手账](../journaling-and-notes-1/)

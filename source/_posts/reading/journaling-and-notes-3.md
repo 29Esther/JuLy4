@@ -84,7 +84,7 @@ categories:
 ## 纸面与数码结合，进一步活用个人手账
 1. 解决二者重叠，找到分界线和侧重点
 
-<img src="../../../../../pics/journaling-and-notes-3.jpg" alt="最强手账改造术" width="100">
+<img src="../../../../../pics/reading/jan/journaling-and-notes-3.jpg" alt="最强手账改造术" width="100">
 
 
 # 相关推荐

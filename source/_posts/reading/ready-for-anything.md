@@ -56,7 +56,7 @@ categories:
     * 4万英尺——3~5年目标（每年）
     * 5万英尺以上——事业、目标、生活方式（1年以上）
 
-<img src="../../../../../pics/ready-for-anything-working-process-5-parts.jpg" alt="工作流程的5个阶段">
+<img src="../../../../../pics/reading/rfa/ready-for-anything-working-process-5-parts.jpg" alt="工作流程的5个阶段">
 
 # 自然式计划模式
 “纵向”控制的操作指南——多层面关注、评估单个具体项目或场景
@@ -127,6 +127,6 @@ categories:
 
 
 # 重要内容
-<img src="../../../../../pics/ready-for-anything-working-content.png" alt="搞定II:提升工作与生活效率的52项原则">
+<img src="../../../../../pics/reading/rfa/ready-for-anything-working-content.png" alt="搞定II:提升工作与生活效率的52项原则">
 
-<img src="../../../../../pics/ready-for-anything.png" alt="搞定II:提升工作与生活效率的52项原则" width="100">
+<img src="../../../../../pics/reading/rfa/ready-for-anything.png" alt="搞定II:提升工作与生活效率的52项原则" width="100">

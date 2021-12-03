@@ -16,7 +16,7 @@ categories:
 期待在即将达到的10月开启我的手账生活！yo🎉yo🎉
 书记，按阅读顺序排列。
 
-<img src="../../../../../pics/journaling-and-notes-0.jpg" alt="手账系列" width="200">
+<img src="../../../../../pics/reading/jan/journaling-and-notes-0.jpg" alt="手账系列" width="200">
 
 # 建议
 我不会建议想入坑的同学和我一样读这些无趣的书，毕竟我已经帮你总结好了。

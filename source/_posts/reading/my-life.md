@@ -89,4 +89,4 @@ categories:
 “狗熊耍扁担，混碗儿饭吃”
 “阎王好做，小鬼难当”
 
-<img src="../../../../../pics/my-life.jpg" alt="我这一辈子" width="100">
+<img src="../../../../../pics/reading/ml/my-life.jpg" alt="我这一辈子" width="100">

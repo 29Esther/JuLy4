@@ -129,6 +129,6 @@ Olson的主要贡献是开创性地论证了集体行动中普遍存在的搭便
 - [大流感——最致命瘟疫的史诗（约翰·M·巴里）](./#%E5%A4%A7%E6%B5%81%E6%84%9F%E2%80%94%E2%80%94%E6%9C%80%E8%87%B4%E5%91%BD%E7%98%9F%E7%96%AB%E7%9A%84%E5%8F%B2%E8%AF%97%EF%BC%88%E7%BA%A6%E7%BF%B0%C2%B7M%C2%B7%E5%B7%B4%E9%87%8C%EF%BC%89)
 - [千亿个太阳——恒星的诞生、演变和衰亡（鲁道夫）](./#%E5%8D%83%E4%BA%BF%E4%B8%AA%E5%A4%AA%E9%98%B3%E2%80%94%E2%80%94%E6%81%92%E6%98%9F%E7%9A%84%E8%AF%9E%E7%94%9F%E3%80%81%E6%BC%94%E5%8F%98%E5%92%8C%E8%A1%B0%E4%BA%A1%EF%BC%88%E9%B2%81%E9%81%93%E5%A4%AB%EF%BC%89)
 
-<img src="../../../../../pics/nju-readings-part1.jpg" alt="南大读本-社会/自然科学卷" width="100">
+<img src="../../../../../pics/reading/nrp/nju-readings-part1.jpg" alt="南大读本-社会/自然科学卷" width="100">
 
 # See you next book!

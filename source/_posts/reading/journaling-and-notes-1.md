@@ -171,7 +171,7 @@ categories:
 
 
 
-<img src="../../../../../pics/journaling-and-notes-1.jpg" alt="神奇手账" width="100">
+<img src="../../../../../pics/reading/jan/journaling-and-notes-1.jpg" alt="神奇手账" width="100">
 
 
 # 相关推荐

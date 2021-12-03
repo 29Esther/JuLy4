@@ -121,9 +121,9 @@ Then, open the http://<your-user-name>.github.io to enjoy your website. It shoul
 
 ## Connect to your own domain.
 Go to the setting page in the respository. 
-![Github Setting](../../../../../pics/github-setting.png)
+![Github Setting](../../../../../pics/tech/bbigactyw/github-setting.png)
 Enter your domain in the input and click save.
-![Add a Domain](../../../../../pics/add-a-domain.png)
+![Add a Domain](../../../../../pics/tech/bbigactyw/add-a-domain.png)
 After that, you can visit your website and see the blog.
 
 ## Connect to github 
@@ -151,9 +151,9 @@ Check the project in github, the folder of the theme that you added may be empty
 
 ## Using Travis-ci to deploy the project on commit
 CI is short for Continuous Integration. [Travis-ci](https://travis-ci.org/) is one of the most popular website for CI. You could login with your github account and then it will get all your reporsitory.
-![travis-ci](../../../../../pics/travis-ci.png)
+![travis-ci](../../../../../pics/tech/bbigactyw/travis-ci.png)
 Switch on the repository of your project and enter the setting of the repository in travis-ci.
-![travid-ci-setting](../../../../../pics/travis-ci-setting.png)
+![travid-ci-setting](../../../../../pics/tech/bbigactyw/travis-ci-setting.png)
 Switch on the 'Build only if .travis.yml is present'.
 
 Now, let's get back to the repositroy in your computer.
