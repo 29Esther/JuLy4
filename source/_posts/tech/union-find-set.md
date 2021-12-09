@@ -226,19 +226,60 @@ public static class UnionFindFinal {
 }
 ```
 
-# 刷题
-## 基本
-* [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) （加岛屿计数器）
+# 复杂度
+Time Complexity:  O(Nα(N)) ≈ O(N), where N is the number of vertices (and also the number of edges) in the graph, and α(N) is the Inverse-Ackermann function. We make up to N queries of dsu.union, which takes (amortized) O(α(N)) time.
 
+Space Complexity: O(N)
+
+# 刷题
+## 常用方法
+1. 通过一些方法将自定义类型转为整型后使用并查集（e.g. 生成哈希值；二维变一维）
+2. 使用链表 + 映射（Map）
+3. 使用桩，stub
+
+## My Favorite
+* [1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) (这题特别好，开眼界了，除了基本的使用方法，点和点join之外，还可以自己和自己join)
+
+## 基本
+* [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) (加岛屿计数器)
+* [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) (`unique`二用)
+* [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) (+size数组)
+* [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) (+count)
+* [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) (+count)
+* [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) (+size数组)
+* [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii)
+* [839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/)
+* [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)
+* [1061. Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)
+* [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves) (+stub)
+* [1101. The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)
+* [1258. Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)
+* [1627. Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)
+* [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)
 
 
 ## 变体
+* [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) (扁平化，降维，2D变1D)
+* [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) (扁平化; 特殊占位)
+* [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) (Map?)
+* [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition) (Map? 算是一种变体吧？想解法还是想了一会儿的)
+* [924. Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/) (难的是计算的部分，ufs本身还是很straightforward的)
+* [928. Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/) (上一题的变体)
+* [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) (54SB, 很拙劣地做出了这道题，双%5，战五渣)
+
+
+
+
+
+## 魔鬼
+* [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii) (corner cases折磨人：数组元素重复；land count有增有减)
+* [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) (数学题)
+
+
 
 # 参考
 * [LeetBook《图》](https://leetcode-cn.com/leetbook/read/graph/r340gv/)
 * [Liu821218213的并查集总结](https://github.com/Liu821218213/LeetCode-Orust/blob/master/%E5%B9%B6%E6%9F%A5%E9%9B%86%E6%80%BB%E7%BB%93.md)
 * [HYN的技术笔记](https://segmentfault.com/a/1190000022952886)
 * [liweiwei的网站](https://www.liwei.party/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/page/2/)
-
-
 * [Leetcode题目合集](https://leetcode-cn.com/tag/union-find/problemset/)

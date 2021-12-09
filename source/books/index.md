@@ -11,6 +11,9 @@ Clean Code
 整理情绪的力量
 
 # 2021
+## Dec
+### [平均分](../reading/average-score/)
+
 ## Sep
 ### [搞定II:提升工作与生活效率的52项原则](../reading/ready-for-anything/)
 
