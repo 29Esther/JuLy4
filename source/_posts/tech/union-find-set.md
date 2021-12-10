@@ -256,7 +256,11 @@ Space Complexity: O(N)
 * [1258. Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)
 * [1627. Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)
 * [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)
-
+* [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+* [1559. Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
+* [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)
+* [1905. Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)
+* [LCS 03. 主题空间](https://leetcode-cn.com/problems/YesdPw/)
 
 ## 变体
 * [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) (扁平化，降维，2D变1D)
@@ -266,7 +270,8 @@ Space Complexity: O(N)
 * [924. Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/) (难的是计算的部分，ufs本身还是很straightforward的)
 * [928. Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/) (上一题的变体)
 * [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) (54SB, 很拙劣地做出了这道题，双%5，战五渣)
-
+* [2076. Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/) (加一个restrictions map)
+* [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/) (思考isolate)
 
 
 
