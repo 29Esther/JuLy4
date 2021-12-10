@@ -1,0 +1,6 @@
+[submodule "themes/zhaoo2"]
+	path = themes/zhaoo2
+	url = https://github.com/izhaoo/hexo-theme-zhaoo.git
+[submodule "themes/zhaoo"]
+	path = themes/zhaoo
+	url = https://github.com/izhaoo/hexo-theme-zhaoo.git
