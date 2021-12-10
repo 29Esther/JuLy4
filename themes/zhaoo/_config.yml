@@ -120,8 +120,8 @@ excerpt:
 
 # Post Image
 post_image:
-  # random: local # local galleries
-  # default: /images/theme/post-image.jpg
+  random: local # local galleries
+  default: /images/theme/post-image.jpg
 
 # Page Size
 post_page_size:
