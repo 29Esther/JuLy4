@@ -239,6 +239,8 @@ Space Complexity: O(N)
 
 ## My Favorite
 * [1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) (这题特别好，开眼界了，除了基本的使用方法，点和点join之外，还可以自己和自己join)
+* [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) (同理上一题)
+
 
 ## 基本
 * [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) (加岛屿计数器)
@@ -261,24 +263,57 @@ Space Complexity: O(N)
 * [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)
 * [1905. Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)
 * [LCS 03. 主题空间](https://leetcode-cn.com/problems/YesdPw/)
+* [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) 
 
 ## 变体
 * [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) (扁平化，降维，2D变1D)
 * [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) (扁平化; 特殊占位)
 * [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) (Map?)
+* [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island/)
 * [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition) (Map? 算是一种变体吧？想解法还是想了一会儿的)
 * [924. Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/) (难的是计算的部分，ufs本身还是很straightforward的)
 * [928. Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/) (上一题的变体)
+* [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
 * [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) (54SB, 很拙劣地做出了这道题，双%5，战五渣)
+* [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points)
+* [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
+* [1722. Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)
+* [1970. Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/)
 * [2076. Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/) (加一个restrictions map)
 * [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/) (思考isolate)
-
-
-
 
 ## 魔鬼
 * [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii) (corner cases折磨人：数组元素重复；land count有增有减)
 * [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) (数学题)
+* [685. Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)
+* [952. Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/) 
+* [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/) 
+
+
+## 偷看答案
+* [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+* [803. Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)
+* [1168. Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
+* [1697. Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)
+* [1724. Checking Existence of Edge Length Limited Paths II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/)
+
+
+## 未解之谜
+* [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)
+* [711. Number of Distinct Islands II](https://leetcode-cn.com/problems/number-of-distinct-islands-ii/)
+* [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) (我想不明白，玄学)
+* [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
+* [1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)
+* [1391. Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)
+* [1632. Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)
+* [1998. GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array)
+* [2003. Smallest Missing Genetic Value in Each Subtree](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)
+#### 最小生成树
+* [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+* [1569. Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
+
+
+
 
 
 
