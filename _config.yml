@@ -71,20 +71,20 @@ deploy:
   repo: https://github.com/29Esther/29esther.github.io.git
   branch: master
 
-index_generator:
-  path: ''
-  per_page: 9  #文章数量改为9篇（3的倍数更和谐）
-  order_by: -date
+# index_generator:
+#   path: ''
+#   per_page: 9  #文章数量改为9篇（3的倍数更和谐）
+#   order_by: -date
 
-highlight:
-  enable: true  #启用代码高亮效果
-  line_number: true
-  auto_detect: true
-  hljs: true
-  tab_replace:
+# highlight:
+#   enable: true  #启用代码高亮效果
+#   line_number: true
+#   auto_detect: true
+#   hljs: true
+#   tab_replace:
 
-search:
-  path: /search.xml  # 索引生成路径（需要设置绝对路径，否则二级页面读不到）
-  field: post  # post page all
-  format: html  # 只支持 html 类型
-  content: true  # 是否包含正文内容
+# search:
+#   path: /search.xml  # 索引生成路径（需要设置绝对路径，否则二级页面读不到）
+#   field: post  # post page all
+#   format: html  # 只支持 html 类型
+#   content: true  # 是否包含正文内容

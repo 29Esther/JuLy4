@@ -42,12 +42,11 @@ font:
   family:
 
 # Background Image
-background_image:
+background_image: 
 
 # Loading
 loading:
   gif: /images/theme/loading.gif
-  lottie:
 
 # Preview
 preview:
@@ -56,10 +55,10 @@ preview:
   background:
     type: image # image video
     default_image:
-      light: /images/theme/welcome-image.jpg
-      dark: /images/theme/welcome-image.jpg
+      light: /pics/about/bgi-light.jpeg
+      dark: /pics/about/bgi-dark.jpeg
     video:
-    api: # https://source.unsplash.com/random/1920x1080
+    # api: https://source.unsplash.com/random/1920x1080
     size: cover # css: background-size
     position: center # css: background-position
   motto:
@@ -77,12 +76,14 @@ navbar:
   back_home: true
 
 # Copyright
-copyright: Copyright 2021 Esther Li
+copyright: Copyright &copy; 2021 Esther Li
 
 # Social
 social:
   github: https://github.com/29Esther || icongithub-fill || '#9f7be1'
   email: mailto:esther_lzx@163.com || iconmail
+  weibo: http://weibo.com/2249721655/profile?topnav=1&wvr=6 || iconweibo || '#9f7be1'
+  # linkedin: https://www.linkedin.com/in/lizhixuan || icongithub-fill || '#9f7be1'
 
 # Override Scrollbar
 scrollbar:

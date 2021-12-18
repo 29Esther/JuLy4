@@ -14,7 +14,7 @@
       position relative
       width 100%
       height 0
-      padding-bottom 66%
+      padding-bottom 33%
       img
         position absolute
         top 0
@@ -40,8 +40,27 @@
             i
               font-size 1em
               margin-right 5px
+    .head-title
+      text-align center
+      .head-mask
+        position relative
+        bottom 0
+        width 100%
+        padding 30px
+        padding-top 60px
+        .head-title
+          font-size 2em
+          font-weight bold
+        .head-info
+          margin-top 10px
+          .post-info-item
+            margin-right 10px
+            i
+              font-size 1em
+              margin-right 5px
     .main
       padding 30px
+      padding-top 0
       background-color var(--color-background)
       .content
         line-height 2
@@ -251,3 +270,24 @@
             margin-bottom 20px
           .head-info
             color var(--color-text-third)
+
+.article_tags
+  text-align center
+  .tag-list
+    padding 0 0 1em 0
+    border-bottom #DDDDDD dashed 1px
+    .tag-list-item
+      display inline-block
+      list-style-type none
+      margin-right 1em
+      padding 5px 10px
+      background-color var(--color-background-secondary)
+      a
+        display inline-block
+        line-height 20px
+        height 20px
+    .tag-list-item:hover
+      cursor pointer
+      background-color $color-link
+      a
+        color #ffffff

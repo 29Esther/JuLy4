@@ -1,5 +1,8 @@
 ---
 title: Books
+type: "books"
+layout: "books"
+image: ../pics/books/head2.jpeg
 ---
 
 # Reading

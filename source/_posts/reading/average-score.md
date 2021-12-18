@@ -33,5 +33,5 @@ categories:
 成长是一个逐渐学会质疑、不再盲从的过程。不再冲动，而认真地审慎地作出决定。当开始学会运用你的人生经历、人生经验，去判断这些究竟代表了什么，就是在成长了。
 认识自己，承担责任，懂得尊重，学会质疑，这是我在成长过程中所体会到的非常重要的关键词。
 
-<img src="../../../../../pics/reading/al/average-score.jpg" alt="平均分" width="100">
+<img src="../../../../../pics/reading/as/average-score.jpg" alt="平均分" width="100">
 

@@ -1,10 +1,9 @@
 <article class="article">
   <div class="wrap">
-    <%- partial('_partial/post/head') %>
+    <section class="head">
+      <%- image_tag(post_image(page.image), { draggable: "false" }) %>
+    </section>
     <section class="main">
-      <section class="article_tags">
-        <%- partial('_partial/post/tag') %>
-      </section>
       <section class="content">
         <% if (theme.excerpt.enable && page.excerpt) { %>
           <p><%- page.excerpt %></p>
@@ -12,10 +11,7 @@
         <%- page.more %>
       </section>
       <section class="extra">
-        <% if (theme.donate.enable && page.donate !== false) { %>
-          <%- partial('_partial/post/donate') %>
-        <% } %>
-        <%- partial('_partial/post/nav') %>
+        <%- partial('_partial/post/donate') %>
       </section>
     </section>
   </div>

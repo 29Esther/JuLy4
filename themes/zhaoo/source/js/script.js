@@ -1,5 +1,3 @@
-console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://github.com/izhaoo/hexo-theme-zhaoo");
-
 (function ($) {
   "use strict";
 
@@ -161,8 +159,10 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
       }
     },
     background: function () {
-      if (!CONFIG.preview.background.api) return;
-      $(".preview-image").css("background-image", "url(" + CONFIG.preview.background.api + ")");
+      var mode = localStorage.getItem("color-mode") || "light";
+      $(".preview-image").css("background-image", "url(" + 
+        CONFIG.preview.background.api ? CONFIG.preview.background.api : 
+          CONFIG.preview.background.default_image[mode] + ")");
     },
     doSearch: function (path, search_id, content_id) {
       // https://segmentfault.com/a/1190000011917419
@@ -486,7 +486,6 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
     CONFIG.scrollbar.type === 'simple' && action.scrollbar();
     CONFIG.notification.enable && action.notification();
     CONFIG.search.enable && action.search();
-    CONFIG.loading.lottie && action.lottie();
   });
 
 })(jQuery);
