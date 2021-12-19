@@ -4,8 +4,6 @@ date: 2021-07-09 21:41:41
 tags:
 - Reading
 - Reading101
-categories:
-- writing
 ---
 
 # 说在前面

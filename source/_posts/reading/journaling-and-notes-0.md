@@ -2,9 +2,8 @@
 title: 手账系列
 date: 2020-09-26 11:00:00
 tags:
+- Reading
 - Journaling
-categories:
-- writing
 ---
 
 # 故事开始

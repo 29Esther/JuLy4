@@ -5,6 +5,7 @@ tags:
 - Algorithms
 categories:
 - tech
+- writing
 ---
 
 * & (bitwise AND)

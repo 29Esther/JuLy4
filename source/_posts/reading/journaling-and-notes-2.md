@@ -4,8 +4,6 @@ date: 2020-09-26 09:00:00
 tags:
 - Reading
 - Journaling
-categories:
-- writing
 ---
 
 # 注

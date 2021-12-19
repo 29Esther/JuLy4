@@ -1,11 +1,9 @@
 ---
-title: The Life-Changing Magic of Tidying Up
+title: 断舍离
 date: 2019-11-08 22:33:56
 tags:
 - Reading
 - Reading101
-categories:
-- writing
 ---
 
 # 说在前面

@@ -5,6 +5,12 @@ layout: "books"
 image: ../pics/books/head2.jpeg
 ---
 
+# Hi, there 👋
+这里是我读过的一些书。
+其中，有一些[感想很多，专门写了文章](../tags/Reading/)，还有一些短短几句，就写在了这篇文章里。
+等我有时间了，会再用gallery的形式整理一下。
+欢迎讨论。
+
 # Reading
 Clean Code
 1984
@@ -26,7 +32,7 @@ Clean Code
 盛唐：贺知章、张九龄、高适————边塞诗派代表，带刀诗人、王昌龄————边塞诗派代表，七绝圣手、岑参————边塞诗派代表、孟浩然————山水田园诗派代表，仕隐双失、王维————山水田园诗派代表，诗佛，仕隐双得、李白————诗仙、杜甫————诗圣
 中唐：白居易、韩愈、李贺
 晚唐：李商隐、杜牧、温庭筠
-<img src="../pics/books/202112-1-TangShi.jpg" height="8">
+<img src="../pics/books/202112-1-TangShi.jpg" height="150">
 
 ### [平均分](../reading/average-score/)
 
@@ -42,25 +48,25 @@ Clean Code
 
 ### 偷影子的人
 一本温暖的小说，温馨 诙谐 充满爱和喜悦，也有淡淡的悲伤
-<img src="../pics/books/202012-1-偷影子的人.jpg" height="8">
+<img src="../pics/books/202012-1-偷影子的人.jpg" height="150">
 
 ## Nov
 ### She Explores
 充满女性力量，书中收集分享了一些女性探险家们的经历和故事。她们的文字虽朴素，却很有力量，展示了对我来说不同寻常的她们的日常。
-<img src="../pics/books/202011-1-SheExplores.jpg" height="8">
+<img src="../pics/books/202011-1-SheExplores.jpg" height="150">
 
 ### 重新发电
 是第九届上海双年展的记录册，也是上海当代艺术馆的建造手册。里面有很多的展品介绍，虽不能百分百体会和感受到每件展品内涵，亦大开眼界。
-<img src="../pics/books/202011-2-Reactivation.png" height="8">
+<img src="../pics/books/202011-2-Reactivation.png" height="150">
 
 ### 阿德勒 带队伍的12个关键法则
 用一个精彩的小故事串联起了12个关键法则，浅显易懂，毫不费力地一口气看完。
-<img src="../pics/books/202011-4-带队伍的12个关键法则.jpg" height="8">
+<img src="../pics/books/202011-4-带队伍的12个关键法则.jpg" height="150">
 
 ## Oct
 ### 被讨厌的勇气
 用一个青年人和哲学家的辩论来讨论阿德勒心理的一些内涵。读者就像那个青年，有自己的思考，也受传统唯物主义影响已久，对于新的概念和内容持有反对、怀疑，甚至愤怒，不停地想挑战，但最后慢慢接受了这些概念。
-<img src="../pics/books/202011-3-被讨厌的勇气.jpg" height="8">
+<img src="../pics/books/202011-3-被讨厌的勇气.jpg" height="150">
 
 ## Sep
 ### [神奇手账](../reading/journaling-and-notes-1/)
@@ -73,7 +79,7 @@ Clean Code
 shuxian先看的，我紧随其后，特别快地翻完了。读起来还是很轻松好睡的。
 没有谁是一座孤岛，一书一世界。
 书店是个好地方，应该没有人不喜欢。
-<img src="../pics/books/202004-1-theStoriedLifeofAJFikry.jpg" height="8">
+<img src="../pics/books/202004-1-theStoriedLifeofAJFikry.jpg" height="150">
 
 ### [南大读本-社会/自然科学卷](../reading/nju-readings-part1/)
 

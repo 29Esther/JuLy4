@@ -4,7 +4,7 @@ date: 2014-12-20 22:35:56
 tags:
 - Soup
 categories:
-- soup
+- writing
 ---
 # 欲望
 了解自己的真实欲望，不受外在潮流的影响，不盲从，不跟风。
