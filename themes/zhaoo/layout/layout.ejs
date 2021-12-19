@@ -6,6 +6,9 @@
   <% } %>
   <%- partial('_partial/components/menu') %>
   <%- body %>
+  <% if (path.replace('index.html','') !== '') { %>
+    <%- partial('_partial/components/footer') %>
+  <% } %>
   <% if (theme.fab.enable) { %>
     <%- partial('_partial/components/fab') %>
   <% } %>

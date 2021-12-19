@@ -2,7 +2,7 @@
 title: 2015简生活
 date: 2014-12-20 22:35:56
 tags:
-- Soup
+- Life
 categories:
 - writing
 ---

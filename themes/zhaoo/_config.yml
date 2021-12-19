@@ -5,7 +5,7 @@
 # Menu
 menu:
   home: / || Home
-  writing: /categories/writing/ || Writing
+  writing: /categories/ || Writing
   books: /books/ || 📚
   tags: /tags/ || Tags
   about: /about/ || About
@@ -79,10 +79,12 @@ copyright: Copyright &copy; 2021 Esther Li
 
 # Social
 social:
+  linkedin: https://www.linkedin.com/in/lizhixuan || iconlinkedin || '#2b65bc'
   github: https://github.com/29Esther || icongithub-fill || '#9f7be1'
-  email: mailto:esther_lzx@163.com || iconmail
-  weibo: http://weibo.com/2249721655/profile?topnav=1&wvr=6 || iconweibo || '#9f7be1'
-  # linkedin: https://www.linkedin.com/in/lizhixuan || icongithub-fill || '#9f7be1'
+  instgram: https://www.instagram.com/estherlzx/ || iconinstagram || '#DA2E76'
+  weibo: http://weibo.com/2249721655/profile?topnav=1&wvr=6 || iconweibo || '#c43d35'
+  email: mailto:esther_lzx@163.com || iconmail || '#12B7F5'
+  
 
 # Override Scrollbar
 scrollbar:
@@ -165,9 +167,7 @@ carrier:
 # Galleries
 galleries:
   enable: true
-  title: 摄影
-  subtitle: Photography
-  type: waterfall # waterfall | grid
+  type: grid # waterfall | grid
   columns: 3
 
 

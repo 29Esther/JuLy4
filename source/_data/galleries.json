@@ -1,0 +1,31 @@
+[{
+  "name": "阅读 Reading",
+  "cover": "/pics/about/books.jpeg",
+  "description": "枕上诗书闲处好，门前风景雨来佳",
+  "url": "/tags/Reading/"
+}, {
+  "name": "技术 Tech",
+  "cover": "/pics/about/tech.jpeg",
+  "description": "纸上得来终觉浅，觉知此事要躬行",
+  "url": "/categories/tech/"
+}, {
+  "name": "技巧 Skills",
+  "cover": "/pics/about/skills.jpeg",
+  "description": "迟日江山丽，春风花草香",
+  "url": "/tags/Skills/"
+}, {
+  "name": "生活 Life",
+  "cover": "/pics/about/life.jpeg",
+  "description": "鸿雁不堪愁里听，云山况是客中过",
+  "url": "/tags/Life/"
+}, {
+  "name": "反思 Reflection",
+  "cover": "/pics/about/reflection.jpeg",
+  "description": "山重水复疑无路，柳暗花明又一村",
+  "url": "/tags/Thinking/"
+}, {
+  "name": "全部 All",
+  "cover": "/pics/about/all.jpeg",
+  "description": "呢喃燕子语梁间，底事来惊梦里闲",
+  "url": "/archives/"
+}]
