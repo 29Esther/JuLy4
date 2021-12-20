@@ -176,7 +176,7 @@ galleries:
 # --------------------------------------------------
 
 comments:
-  enable: false
+  enable: true
   type: valine # gitalk | valine | changyan
   button: true
 
@@ -192,7 +192,7 @@ gitalk:
 valine:
   appId:
   appKey:
-  placeholder: 雁过留痕
+  placeholder: 让我猜猜你在想什么
   avatar: mp
   pageSize: 10
   lang: zh-CN
@@ -225,7 +225,7 @@ tencentChao:
 
 # LeanCloud
 leancloud:
-  enable: false
+  enable: true
   appId:
   appKey:
   serverURLs: https://leancloud.cn/

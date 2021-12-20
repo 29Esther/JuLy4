@@ -17,6 +17,9 @@
         <% } %>
         <%- partial('_partial/post/nav') %>
       </section>
+      <% if (theme.comments.enable) { %>
+        <%- partial('_partial/post/comments') %>
+      <% } %>
     </section>
   </div>
 </article>
