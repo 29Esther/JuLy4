@@ -5,7 +5,6 @@ tags:
 - Algorithms
 categories:
 - tech
-- writing
 ---
 
 太难了！我哭了！

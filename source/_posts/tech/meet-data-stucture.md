@@ -6,7 +6,6 @@ tags:
 - Data Structure
 categories:
 - tech
-- writing
 ---
 
 ## 结构的分类

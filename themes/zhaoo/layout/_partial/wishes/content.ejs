@@ -1,0 +1,51 @@
+<style>
+  body {
+    background-image: linear-gradient(102.7deg, #fddaff 8.2%, #dfadfc 19.6%, #adcdfc 36.8%, #adfcf4 73.2%, #caf8d0 90.9%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+<section>
+  <%- partial('_partial/components/header', {title: page.title, subtitle: page.subtitle}) %>
+  <div class="task-app">
+    <% if (site.data && site.data.wishes) { %>
+      <% var wishes = site.data.wishes; %>
+      <% for (var i = 0, len = wishes.length; i < len; i++) { %>
+        <% var wish = wishes[i]; %>
+        <% var l = wish.items.length; %>
+    <div class="task-header">
+      <h2 class="task-header-title"><%= wish.title %></h1>
+      <div class="task-tools">
+        <div class="task-count"><%= l %> tasks</div>
+        <div class="task-filters">
+          <button class="task-filter is-active">All</button>
+          <button class="task-filter" data-param="completed" data-value="false">Active</button>
+          <button class="task-filter" data-param="completed" data-value="true">Completed</button>
+        </div>
+      </div>
+    </div>
+    <div class="task-list">   
+      <% var items = wish.items; %>
+      <% for (var j = 0, len2 = items.length; j < len2; j++) { %>
+        <% var item = items[j]; %>
+        <% if (item.completed) { %>
+          <div class="task-item is-completed">
+            <input class="task-status" type="checkbox" checked="true" disabled="true"><label
+            class="task-name"><%= item.name %></label>
+        </div>
+        <% } else { %>
+          <div class="task-item"><input class="task-status" type="checkbox" disabled="true"><label
+            class="task-name"><%= item.name %></label>
+        </div>
+        <% } %>
+      <% } %>
+    </div>
+  <% } %>
+  <% } %>
+  </div>
+</section>
+
+<script>
+
+</script>

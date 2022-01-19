@@ -6,7 +6,6 @@ tags:
 - Hexo
 categories:
 - tech
-- writing
 ---
 **Recommend read the whole article throught before taking actions**
 # What do you need?
