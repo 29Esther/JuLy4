@@ -116,3 +116,7 @@ a >>> b is shifting the number a to the right by b places, and add 0 to position
 ## EASY
 * [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 * [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+* [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+
+
+https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
