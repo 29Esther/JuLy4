@@ -12,12 +12,18 @@ image: ../pics/books/head2.jpeg
 欢迎讨论。
 
 # Reading
+蛤蟆先生去看心理医生
 Clean Code
 1984
 恋爱心理必修课
 人类愚蠢辞典
 黑客与画家
 整理情绪的力量
+
+# 2022
+## Jan
+### [季羡林谈人生](../reading/ji-xian-lin-tan-ren-shen/)
+### [北京口述历史·八旗子弟的世界](../reading/ba-qi-zi-di-de-shi-jie/)
 
 # 2021
 ## Dec
