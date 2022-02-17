@@ -79,6 +79,8 @@ Biconnected Component 1
 
 ## Ing
 
+
 ## 第一遍
 * [Union Find 58](https://leetcode.com/tag/union-find/)
 * [Heap (Priority Queue) 100](https://leetcode.com/tag/heap-priority-queue/)
+* [Binary Search 167](https://leetcode.com/tag/binary-search/)
