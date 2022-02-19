@@ -12,15 +12,19 @@ image: ../pics/books/head2.jpeg
 欢迎讨论。
 
 # Reading
-蛤蟆先生去看心理医生
-Clean Code
-1984
-恋爱心理必修课
-人类愚蠢辞典
-黑客与画家
+也许你该找个人聊聊
+西部招妻
 整理情绪的力量
 
 # 2022
+## Feb
+### 没有奶奶们查不出的事儿
+蛮好玩的小说，轻悬疑，将一件事，通过不同人的对话，层层展开。感觉作者的能力差了点火候，所以留下了一个开放的结尾。
+愿我们都心中有火，眼里有光！
+<img src="../pics/books/202202-1-没有奶奶们查不出的事儿.PNG" height="150">
+
+### [蛤蟆先生去看心理医生](../reading/ha-ma-xian-sheng-qu-kan-xin-li-yi-sheng/)
+
 ## Jan
 ### [季羡林谈人生](../reading/ji-xian-lin-tan-ren-shen/)
 ### [北京口述历史·八旗子弟的世界](../reading/ba-qi-zi-di-de-shi-jie/)
