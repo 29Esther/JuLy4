@@ -81,7 +81,18 @@ log(cnum + num === 0);
 0 ^ 1 = 1
 1 ^ 1 = 0
 
-Usage: [Single Number](https://leetcode.com/problems/single-number/)
+Properties:
+* 0 ^ N = N, N ^ N = 0
+* 交换律和结合律: a ^ b = b ^ a, a ^ b ^ c = a ^ (b ^ c)
+
+Usage: 
+* 交换两个数
+```
+a = a ^ b;
+b = a ^ b;
+a = a ^ b; // a, b 值交换
+```
+* [Single Number](https://leetcode.com/problems/single-number/)
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 ```
 nums.reduce((n,a) => a^n, 0);
@@ -108,7 +119,7 @@ a >>> b is shifting the number a to the right by b places, and add 0 to position
 练习：
 * [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
-## n & (-n)
+## n & (-n) / n & (~n + 1)
 直接获取n二进制表示的最低位的1
 > 假设 n 的二进制表示为：a10⋯0，其中 a 表示若干个高位，1 表示最低位的1，0⋯0 表示后面的若干个0，那么 -n 的二进制表示为：(ā01⋯1)+(1) = (ā10⋯0)，将 a10⋯0 与 ā10⋯0 进行按位与运算，高位全部变为0，最低位的1以及之后的所有0不变，这样我们就获取了n二进制表示的最低位的1。
 
