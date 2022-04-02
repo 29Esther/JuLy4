@@ -10,10 +10,12 @@ Name: **Zhixuan Li**
 Nick Name: **Esther**  
 Prons: **She/her/hers**
 
-> I named myself **Esther** when I was 15 for my English class. I was looking for a special name, not too complex nor too common. I referred to a website, suggesting English name for girls. There, it wrote: the name originates from Greek with the meaning **star**. Somehow, I chose it without further considerations. Untill recent, I noticed that this name is known from the Jewish queen Esther, eponymous heroine of the Book of Esther.
+> I named myself **Esther** when I was 15 for my English class. I was looking for a special name, not too complex nor too common. I referred to a website, which suggests English name for girls. There, it wrote: the name originates from Greek with the meaning **star**. Somehow, I chose it without further considerations. Untill recent, I noticed that this name is known from the Jewish queen Esther, eponymous heroine of the Book of Esther.
 
 # Education
 #### M.S.ing in Computer Science
+School: **University of California - Davis**, California, United States
+Time: **Mar. 2021 - Present**
 Overall GPA: **4.0/4.0**
 
 #### B.E. in Software Engineering
@@ -40,6 +42,12 @@ Description:
 # Project Experience
 ## Work Project
 ## School Project
+#### [Tag the Object](https://github.com/YuangMa/TagTheObject)
+Time: **Jan. 2022 - Mar. 2022**
+Description: **A functionality in Operating System to help users bettwe organize their files, folders, applications with ML, also an exmaple of PBE**
+Skills: **JsonRPC, C++**
+Roles: **Product Owner**
+
 #### [AggieShell: A Blockchain-based Crowdfunding Platform](https://aggie-shell.vercel.app/)
 Time: **Sept. 2021 - Nov. 2021**
 Description: **A decentralized platform for student start-ups in which the platform offers transparency, security, seamless payment experience, and low transaction fee. Successful fundraising is completed when a predetermined amount threshold is met before the fundraising deadline. Should the project fail to meet the above condition, the payment will be fully refunded to the donators.**
