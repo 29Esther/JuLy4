@@ -98,8 +98,8 @@ while (!heap.isEmpty()) {
     int[] info = heap.poll();
     int d = info[0], cur = info[1];
     if (dist.containsKey(cur)) continue; // 已知cur节点的最优解，不用再麻烦了
-    dist.put(node, d); // 当前解为cur的最优解
-    Map<Integer, Integer> nexts = list.get(node); // 得到下一节点
+    dist.put(cur, d); // 当前解为cur的最优解
+    Map<Integer, Integer> nexts = neighbors.get(node); // 得到下一节点
     for (int nxt: nexts.keySet()) {
         if (!dist.containsKey(nxt)) // 下一节点的最优解未知，加入队列中
             heap.offer(new int[]{d + nexts.get(nxt), nxt});
