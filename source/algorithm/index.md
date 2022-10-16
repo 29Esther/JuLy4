@@ -1,10 +1,8 @@
 ---
-title: Algorithms目录 纲要 
-date: 2021-12-2 18:33:56
-tags:
-- Algorithms
-categories:
-- tech
+title: Algorithm 目录 纲要
+type: "algorithm"
+layout: "books"
+image: ../pics/about/algorithm.jpeg
 ---
 
 # 题目类型
@@ -85,6 +83,7 @@ Biconnected Component 1
 * [DP](../dp/)
 
 # Infg
+* QuickSelect
 * 单调队列，单调栈
 * Binary Index Tree
 * Segment Tree
