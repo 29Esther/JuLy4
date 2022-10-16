@@ -84,4 +84,4 @@ Note that the ordering maintained by a set (whether or not an explicit comparato
 * [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii)（被shuxian剧透了，生气）
 
 # 参考
-* [Heap Wikipedia](https://en.wikipedia.org/wiki/Heap_(data_structure)#Implementation)
+* [Heap Wikipedia](https://en.wikipedia.org/wiki/Heap_%28data_structure%29#Implementation)
