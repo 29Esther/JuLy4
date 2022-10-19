@@ -8,7 +8,7 @@ categories:
 ---
 
 # 开篇废话
-数据结构「并查集」（Union-Find），也称「不相交集合」（Disjion-Sets）挺火的，刷题的时候一直遇到，刷到必是medium以上。本身原理并不复杂，就是实现代码稍微多了点。
+数据结构「并查集」（Union-Find），也称「不相交集合」（Disjoin-Sets）挺火的，刷题的时候一直遇到，刷到必是medium以上。本身原理并不复杂，就是实现代码稍微多了点。
 
 # 原理
 ![并查集主要知识点导图](../../../../../pics/tech/ufs/union-find.png)

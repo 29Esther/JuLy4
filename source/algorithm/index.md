@@ -6,84 +6,71 @@ image: ../pics/about/algorithm.jpeg
 ---
 
 # 题目类型
-Array 1008
-String 494
-Hash Table 349
-Dynamic Programming 348
-Math 334
-Depth-First Search 236
-Sorting 220
-Greedy 215
-Breadth-First Search 191
-Database 189 
-Tree 184
-Binary Search 167
-Binary Tree 155
-Matrix 152 
-Two Pointers 140
-Bit Manipulation 121
-Stack 117 Design 104
-Graph 86
-Backtracking 86
-Simulation 79
-Prefix Sum 72
-Sliding Window 66
-Counting 63
-Linked List 62
-Recursion 42
-Monotonic Stack 40
-Binary Search Tree 40
-Trie 39
-Ordered Set 38
-Divide and Conquer 37
-Bitmask 31
-Queue 31
-Memoization 28
-Geometry 27
-Enumeration 25
-Game Theory 24
-Segment Tree 21
-Hash Function 20
-Topological Sort 20
-Interactive 18
-Data Stream 16
-Binary Indexed Tree 16
-String Matching 15
-Shortest Path 13
-Rolling Hash 13
-Randomized 12
-Combinatorics 12
-Monotonic Queue 9
-Iterator 9
-Concurrency 9
-Number Theory 8
-Merge Sort 8
-Brainteaser 8
-Probability and Statistics 7
-Doubly-Linked List 7
-Quickselect 6
-Bucket Sort 6
-Minimum Spanning Tree 5
-Counting Sort 5
-Suffix Array 5
-Shell 4
-Line Sweep 4
-Reservoir Sampling 4
-Eulerian Circuit 3
-Strongly Connected Component 2
-Radix Sort 2
-Rejection Sampling 2
-Biconnected Component 1
+## Done
+* [Union Find Set](../tech/union-find-set/)
+* [Heap (Priority Queue)](../tech/heap/)
+* [Binary Search](../tech/binary-search/)
+* [Graph](../tech/graph/)
+* [DP](../tech/dp/)
+* [Quick Select](../tech/quickselect/)
+* [Segment Tree](../tech/segment-tree/)
 
-# Done
-* [Union Find Set](../union-find-set/)
-* [Heap (Priority Queue)](../heap/)
-* [Binary Search](../binary-search/)
-* [Graph](../graph/)
-* [DP](../dp/)
-
-# Infg
-* QuickSelect
+## Todo
 * 单调队列，单调栈
 * Binary Index Tree
-* Segment Tree
+* 最小生成树
+
+# 思路提示
+* Input Array is Sorted
+  - Binary Search: O(log n)
+  - Two Pointers: O(n)
+* Input is a Binary Tree
+  - DFS (Preorder, Inorder, Postorder): O(n)
+  - BFS (Level Order): O(n)
+* Input is a Binary Search Tree
+  - Left < Cur < Right: O(log n)
+  - Inorder Traversal visits the nodes in ascending (sorted) order: O(n)
+* Input is a Matrix/Graph
+  - DFS (Recursion, Stack): O(n)
+  - BFS (Queue): O(n)
+* Find the Shortest/Nearest Path/Distance in a Tree/Matrix/Graph
+  - BFS (non-weighted): O(n)
+  - Dijkstra (weighted): O(E log V)
+* String Concatenation
+  - StringBuilder: O(n) (Java, C#, etc.)
+  - String.join(): O(n) (Python)
+* Input is a Linked List
+  - Dummy Node
+  - Two Pointers: O(n)
+  - Fast & Slow Pointers: O(n)
+* Recomputing the Same Input
+  - Memoization
+* Recursion is Banned
+  - Stack
+* Permutations/Combinations/Subsets
+  - Backtracking
+* Find the Top/Least Kth element
+  - QuickSelect: O(n) average, O(n²) worst
+  - Heap: O(n log k)
+* Common Strings
+  - Map
+  - Trie
+* Sort
+  - QuickSort: O(n log n) average, O(n²) worst
+  - MergeSort: O(n log n)
+  - Built-in sorts: O(n log n)
+* Find the Smallest/Largest/Median in a Stream
+  - Two Heaps
+* Must Solve In-Place
+  - Swap corresponding values
+  - Store different values in the same pointer
+* Maximum/Minimum Subarray/Subset/Options
+  - Dynamic Programming
+* Map/Set
+  - Time: O(1)
+  - Space: O(n)
+* Deque
+  - Replaces Stack, Queue, and LinkedList
+
+# Reference
+* [Leetcode Cheat Sheet by Pirate King](https://www.piratekingdom.com/leetcode/cheat-sheet#patterns)
