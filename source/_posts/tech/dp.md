@@ -146,18 +146,17 @@ return max
 * [801.Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing)
 * [871.Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops) 贪心比较容易想，但是dp的话，还是有点复杂的
 
-## 带维度的单串
+## 带维度的单串！！
 增加维度，通常用 k 表示，k 随着题目的不同，可以表示长度，个数，次数，颜色等，同时 k 这个维度的枚举和转移可能涉及到二分，贪心等算法
 ### 问题
 * [256. Paint House](https://leetcode.com/problems/paint-house/)
 * [265. Paint House II](https://leetcode.com/problems/paint-house-ii/)
 * [1473.Paint House III](https://leetcode.com/problems/paint-house-iii)
 * [813.Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages) 这题并不难，就是很烦
-<a href="https://leetcode.com/problems/super-egg-drop" target="_blank" rel="noopener" style="background: yellow;">887.Super Egg Drop</a>
-* [887.Super Egg Drop](https://leetcode.com/problems/super-egg-drop) 测试题
+* <class='hl'>[887.Super Egg Drop](https://leetcode.com/problems/super-egg-drop)</class> 测试题
 * [975.Odd Even Jump](https://leetcode.com/problems/odd-even-jump) TreeMap
 * [403.Frog Jump](https://leetcode.com/problems/frog-jump)
-* [1478.Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes) //todo
+* [1478.Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes) 搞不定啊！能想到大概思路，但是实现有困难
 * [1230. Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/) 太多细节啦
 
 ## 买卖股票
