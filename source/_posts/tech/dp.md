@@ -10,7 +10,7 @@ categories:
 
 # 开篇废话
 时隔一年，又开始了我的算法生涯。唉，苦海无边，人生有涯啊。
-这次先来看看DP，我觉得DP难在找到递归式和边界值。
+这次先来看看DP，DP难在找到递归式和边界值。
 
 # 流程
 动态规划问题的一般形式就是求最值，求解的核心问题是穷举，然后找最值。
@@ -102,12 +102,13 @@ for x in A:
     max = max(max, cur)
 return max
 ```
+矩阵的话，方法类似：算出每一列的前缀和，然后遍历所有情况的行组合。O(n^2m)
 ### 问题
 * [53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
 * [152.Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)
 * [918.Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray)
-* [面试题 17.24. Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) // [todo]
-* [363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) // [todo]
+* [面试题 17.24. Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) 
+* [363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
 
 ## 最大子数组和变体：House Robber
 ### 模版
@@ -151,8 +152,9 @@ return max
 * [256. Paint House](https://leetcode.com/problems/paint-house/)
 * [265. Paint House II](https://leetcode.com/problems/paint-house-ii/)
 * [1473.Paint House III](https://leetcode.com/problems/paint-house-iii)
-* [813.Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages) //todo
-* [887.Super Egg Drop](https://leetcode.com/problems/super-egg-drop) //todo
+* [813.Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages) 这题并不难，就是很烦
+<a href="https://leetcode.com/problems/super-egg-drop" target="_blank" rel="noopener" style="background: yellow;">887.Super Egg Drop</a>
+* [887.Super Egg Drop](https://leetcode.com/problems/super-egg-drop) 测试题
 * [975.Odd Even Jump](https://leetcode.com/problems/odd-even-jump) TreeMap
 * [403.Frog Jump](https://leetcode.com/problems/frog-jump)
 * [1478.Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes) //todo
