@@ -251,8 +251,14 @@ pjax: false
 highlight:
   enable: true
   style: # https://highlightjs.org/static/demo/
-    light: Xcode
-    dark: Solarized Dark
+    light: Atom One Light
+    dark: Atom One Dark
+  auto_detect: false
+  line_number: true
+  line_threshold: 0
+  tab_replace: ''
+  wrap: true
+  hljs: true
 
 # SEO
 seo:
@@ -279,7 +285,7 @@ vendors:
   daovoice_js: https://widget.daovoice.io/widget/0f81ff2f.js
   lottie_js: https://cdn.bootcdn.net/ajax/libs/lottie-web/5.7.12/lottie.js
   fancybox_css: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
-  highlight_css: https://cdn.bootcss.com/highlight.js/9.18.1/styles/
+  highlight_css: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/
   iconfont_css: //at.alicdn.com/t/font_1445822_p6ry5n7lrr.css
 
 # Custom

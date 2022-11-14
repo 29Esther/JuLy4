@@ -264,6 +264,23 @@
       $(".loading").delay(500).fadeOut(300);
       $("body").removeClass("lock-screen");
     },
+    collapsible: function() {
+      $(".collapsible").on("click", function() {
+        this.classList.toggle("expanded");
+        var content = this.nextSibling;
+        while (content) {
+          if (content.matches('collapsible-content')) break;
+          content = content.nextSibling;
+        }
+        if (content && content.style.maxHeight){
+          content.style.display = "none";
+          content.style.maxHeight = null;
+        } else {
+          content.style.display = "block";
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    },
     fab: function () {
       $(".fab-plus").on("click", function () {
         if ($(this).hasClass("fab-plus-active")) {
@@ -475,6 +492,7 @@
     action.menu();
     action.scroolToTop();
     action.preview();
+    action.collapsible();
     CONFIG.fancybox && action.fancybox();
     CONFIG.pjax && action.pjax();
     CONFIG.lazyload.enable && action.lazyload();
