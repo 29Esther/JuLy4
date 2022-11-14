@@ -24,7 +24,7 @@ after_script:
 - git add CNAME
 - git commit -m "Add CNAME"
 - echo ${GH_TOKEN}
-- git push https://${GH_TOKEN}@github.com/29Esther/29esther.github.io.git
+- git push https://${GH_TOKEN}@github.com/29Esther/29esther.github.io.git HEAD:master
 
 env:
   global:
