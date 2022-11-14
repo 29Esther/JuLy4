@@ -1,5 +1,5 @@
 ---
-title: quickselect 快速选择
+title: Quick Select 快速选择
 date: 2022-10-16 18:33:56
 tags:
 - Algorithms
@@ -17,7 +17,7 @@ categories:
 
 # 模版
 ## 自用简易模版
-```
+```java
 public int findKthLargest(int[] nums, int k) {
   return quickSelect(nums, 0, nums.length - 1, k-1);
 }

@@ -1,5 +1,5 @@
 ---
-title: 动态规划
+title: Dynamic Programming 动态规划
 date: 2022-09-25 18:33:56
 tags:
 - Algorithms
@@ -18,7 +18,7 @@ categories:
 思考步骤：明确 base case -> 明确「状态」-> 明确「选择」 -> 定义 dp 数组/函数的含义
 
 # 模版
-```
+```python
 # 自顶向下递归的动态规划
 def dp(状态1, 状态2, ...):
     for 选择 in 所有可能的选择:
@@ -41,7 +41,7 @@ for 状态1 in 状态1的所有取值：
 ### 模版
 1. 嵌套遍历
 2. binary search
-```
+```java
 ## 朴素版
 public int lengthOfLIS(int[] nums) {
     int n = nums.length;
@@ -93,8 +93,8 @@ public int lengthOfLIS(int[] nums) {
 
 ## 最大子数组和
 ### 模版
-```
-# Kadane's algorithm
+```js
+// Kadane's algorithm
 max = cur = None
 for x in A:
     cur = x + max(cur, 0)
@@ -111,7 +111,7 @@ return max
 
 ## 最大子数组和变体：House Robber
 ### 模版
-```
+```js
 pre1 = pre2 = max = cur = None
 for x in A:
     cur = x + max(pre2, 0)

@@ -1,5 +1,5 @@
 ---
-title: Segment Tree
+title: Segment Tree 线段树
 date: 2022-10-16 23:33:56
 tags:
 - Algorithms
@@ -22,7 +22,7 @@ categories:
 # 模版
 ## 树的实现
 ### 节点区间定义
-```
+```java
 // [start, end] 代表节点的区间范围
 // max 是节点在(start,end)区间上的最大值
 // left , right 是当前节点区间划分之后的左右节点区间
@@ -38,7 +38,7 @@ public class SegmentTreeNode {
 }
 ```
 ### 构造代码
-```
+```java
 // 构造的代码及注释
 public SegmentTreeNode build(int[] A) {
     // write your code here
@@ -60,7 +60,7 @@ public SegmentTreeNode buildhelper(int left, int right, int[] A){
 }
 ```
 ### 区间查询的代码
-```
+```java
 public int query(TreeNode root, int start, int end) {
     if (start <= root.start && root.end <= end) {
         // 如果查询区间在当前节点的区间之内,直接输出结果
@@ -78,7 +78,7 @@ public int query(TreeNode root, int start, int end) {
 }
 ```
 ### 单点更新的代码
-```
+```java
 public void modify(SegmentTreeNode root, int index, int value) {
     if(root.start == root.end && root.start == index) { // 找到被改动的叶子节点
         root.max = value; // 改变value值
@@ -97,7 +97,7 @@ public void modify(SegmentTreeNode root, int index, int value) {
 ```
 ## 数组的实现
 ### 变量
-```
+```java
 public NumArray(int[] nums) {
   int n = nums.length;
   int[] seg = new int[4 * n]; // 一般去数组长度的四倍
@@ -105,7 +105,7 @@ public NumArray(int[] nums) {
 }
 ```
 ### 构造代码
-```
+```java
 // build segment tree, set the value of seg[idx]
 public void build(int[] nums, int start, int end, int[] seg, int idx) {
     if (start == end) {
@@ -119,7 +119,7 @@ public void build(int[] nums, int start, int end, int[] seg, int idx) {
 }
 ```
 ### 区间查询的代码
-```
+```java
 public int query(int start, int end, int queryStart, int queryEnd, int[] seg, int idx) {
   if (queryStart <= start && end <= queryEnd) return seg[idx];
   int ans = 0;
@@ -134,7 +134,7 @@ public int query(int start, int end, int queryStart, int queryEnd, int[] seg, in
 }
 ```
 ### 单点更新的代码
-```
+```java
 public void update(int start, int end, int indexToBeUpdated, int newVal, int[] seg, int idx) {
   if (start == end) {
     seg[idx] = newVal;
@@ -151,7 +151,7 @@ public void update(int start, int end, int indexToBeUpdated, int newVal, int[] s
 ```
 ## Lazy Propagation 懒加载
 ### 区间懒更新
-```
+```java
 // update [left, right] by val
 public void updateLazySegTree(int index, int start, int end, int left, int right, int val) {
   if (lazy[index] != 0) { // this node is lazy
@@ -183,7 +183,7 @@ public void updateLazySegTree(int index, int start, int end, int left, int right
 }
 ```
 ### 区间懒查询
-```
+```java
 // query [left, right]
 int queryLazySegTree(int index, int start, int end, int left, int right) {
   if (lazy[index] != 0) { // this node is lazy
@@ -206,7 +206,7 @@ int queryLazySegTree(int index, int start, int end, int left, int right) {
 }
 ```
 ## 动态开点
-```
+```java
 // LC: 699
 class Solution {
   int N = (int)1e9;

@@ -76,13 +76,6 @@
           text-align justify
           if (hexo-config('indent.content'))
             text-indent unquote(hexo-config('indent.content'))
-        p, li
-          code
-            font-size 1em
-            background-color var(--color-background-secondary)
-            padding 2px 5px
-            border-radius 2px
-            color $color-link
         hl
           background-color var(--color-highlight)
         a
@@ -115,14 +108,12 @@
           color var(--color-text)
           margin 0
           overflow auto
-          margin-bottom 20px
           .code
             padding 0
             border none
-            border-left 4px solid #ffcccc
             padding 8px
-            background-color var(--color-background-secondary)
             code
+              border-left 4px solid #ffcccc
               padding 1em
           > *
             border-spacing 0px

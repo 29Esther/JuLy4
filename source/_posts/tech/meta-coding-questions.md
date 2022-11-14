@@ -76,11 +76,13 @@ categories:
 * [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 * [348. 设计井字棋](https://leetcode.com/problems/design-tic-tac-toe/)
 * [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) Recursive
-```
-private final String[] LESS_THAN_20 = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
-private final String[] TENS = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
-private final String[] THOUSANDS = {"", "Thousand", "Million", "Billion"};
-```        
+
+    ```java
+    private final String[] LESS_THAN_20 = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+    private final String[] TENS = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+    private final String[] THOUSANDS = {"", "Thousand", "Million", "Billion"};
+    ```
+
 * [616. 给字符串添加加粗标签](https://leetcode.com/problems/add-bold-tag-in-string/)
 * [536. 从字符串生成二叉树](https://leetcode.com/problems/construct-binary-tree-from-string/)
 * [1428. 至少有一个 1 的最左端列](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) 二分法

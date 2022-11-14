@@ -1,5 +1,5 @@
 ---
-title: 二分查找法
+title: Binary Search 二分查找法
 date: 2022-02-15 18:33:56
 tags:
 - Algorithms
@@ -16,7 +16,7 @@ categories:
 二分查找的基本思想是将n个顺序元素分成大致相等的两部分，将查找目标值与分隔中间值进行比较，选择中间值的两边，进行比较，直到范围缩小为1。时间复杂度为O(lgN)，空间复杂度为O(1)。
 ## 自用模版
 我在前沿里说了，二分的模版有很多，这里是我最顺手，最常用的模版，它找的是第一个大于等于k的数在数组中的位置。
-```
+```java
 int binarySearch(int[] a, int k) {
   int l = 0, r = a.length - 1;
   while (l < r) {
@@ -37,7 +37,7 @@ int binarySearch(int[] a, int k) {
 这个选择，取决于答案的范围。例如，最大可能答案是n，那么我们的右指针应当从**数组的长度n**开始。
 2. 中间元素index mid的计算
 一般来说计算方式有如下两种：
-```
+```java
 // when odd, return the only mid
 // when even, return the lower mid
 int mid = lo + ((hi - lo)/2);
@@ -51,7 +51,7 @@ int mid2 = lo + ((hi - lo + 1) / 2);
 此外，为了防止溢出，我们一般不会直接把左右元素相加除以2，而是写成 l+差 这样形式的。
 3. 左右指针的移动 = if条件
 写我们100%确定的条件
-```
+```java
 if (100% sure logic) {
   left = mid + 1; // 100% sure target is to the right of mid
 } else {
@@ -69,7 +69,7 @@ if (100% sure logic) {
 5. 防止无限循环
 这是一个新手经常会遇到的问题。为啥我的二分法没法结束呢？这时候，你需要检查一下，你的mid值取的是上边界，还是下边界，如果像下面的代码，你的mid值是上边界，而移动左右指针时，又是保持左边界l不变，移动右边界r，那么你可能就会进入无限循环了。
 解决的诀窍是，考虑当左右边界之间，只有2个元素时的情况下，如何退出循环。
-```
+```java
 // ❌ The following code results in inifite loop
 int mid = lo + ((hi - lo)/2); // aka the lower mid
 // We should use:
@@ -83,7 +83,7 @@ if (100% sure logic) {
 ```
 
 # API 大法
-```
+```java
 /**
 * Searches a range of the specified array of ints for the specified value using the binary search algorithm. The range must be sorted (as by the sort(int[], int, int) method) prior to making this call. If it is not sorted, the results are undefined. If the range contains multiple elements with the specified value, there is no guarantee which one will be found.
 Params:

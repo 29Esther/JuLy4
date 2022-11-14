@@ -1,5 +1,5 @@
 ---
-title: 单调队列，单调栈
+title: Monotonic Stack, Monotonic Queue 单调队列，单调栈
 date: 2022-11-13 18:33:56
 tags:
 - Algorithms
@@ -11,14 +11,10 @@ categories:
 兜兜转转又一个月，继续征战，这次我们看看视觉美观的单调队列和单调栈，看看单调的人生怎么解。
 
 ## 简单题入手
-
 * [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) {.hl}
   <button type="button" class="collapsible">一些理解</button>
   <collapsible-content>
     这题一道比较典型的单调栈问题, 由于我们只需要找到右侧第一个小于当前数的数，我们有两种遍历方式：1. 从左往右遍历，栈中维护之前数字的index，如果之前的数大于当前数，我们那弹出并更新前一个数的答案；2. 从右往左遍历，栈中维护已遇到的数字，如果当前数小于之前的数字，则一直弹出，直到遇到一个小于当前数的数字，或者栈为空，得出当前答案。
-    ```yaml
-    hello: hexo
-    ```
     ```java
     // 方法一
     public int[] finalPrices(int[] prices) {

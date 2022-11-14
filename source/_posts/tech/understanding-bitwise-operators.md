@@ -28,7 +28,7 @@ categories:
 与1在一起，保留自己，与0(您)一起，奉献一生
 
 Usage: 奇偶检查
-```
+```js
 var randInt = Math.round(Math.random()*1000);
 if(randInt & 1) {
     trace("Odd number.");
@@ -45,7 +45,7 @@ if(randInt & 1) {
 或1变1，或0(您)还是自己
 
 Usage: 条件判断
-```
+```js
 var option1 = 1, option2 = 2, option3 = 4, option4 = 8; 
 
 var determineConditions = function (options) {
@@ -71,7 +71,7 @@ determineConditions(option1 | option3);
 ~1 = 0
 
 Usage: 补数
-```
+```js
 var num = 37, cnum = ~num + 1; 
 log(cnum + num === 0);
 ```
@@ -87,14 +87,14 @@ Properties:
 
 Usage: 
 * 交换两个数
-```
+```js
 a = a ^ b;
 b = a ^ b;
 a = a ^ b; // a, b 值交换
 ```
 * [Single Number](https://leetcode.com/problems/single-number/)
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
-```
+```js
 nums.reduce((n,a) => a^n, 0);
 ```
 

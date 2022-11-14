@@ -1,5 +1,5 @@
 ---
-title: 并查集介绍
+title: Union-Find Set / Disjoint Set Union 并查集介绍
 date: 2021-12-02 18:44:56
 tags:
 - Algorithms
@@ -22,7 +22,7 @@ categories:
 # 代码实现
 ## 代码框架
 代码基本框架如下，对于`find`和`union`下面会介绍不同的实现
-```
+```java
 public class UnionFind {
     int[] root;
 
@@ -48,7 +48,7 @@ public class UnionFind {
 ```
 ## Quick Find 实现
 此实现重点在于超快速`find`方法，时间复杂度在O(1)，而对于`union`时间复杂度是O(n)
-```
+```java
 public class UnionFindQuickFind extends UnionFind {
     UnionFindQuickFind(int size) {
         super(size);
@@ -73,7 +73,7 @@ public class UnionFindQuickFind extends UnionFind {
 ## Quick Union 实现
 此实现是最常用的版本，其他的优化也是基于此版本
 虽然提高了`find`方法的时间复杂度，但平均了`union`的时间复杂度，总体效率会高于*Quick Find*方法
-```
+```java
 public class UnionFindQuickUnion extends UnionFind {
     UnionFindQuickUnion(int size) {
         super(size);
@@ -97,7 +97,7 @@ public class UnionFindQuickUnion extends UnionFind {
 ## 按秩合并优化 实现
 针对`union`操作的优化，在`union`操作时，根据约定的秩序从两个根节点中选择新的根结点
 ### 标准按秩，按当前树的高度合并
-```
+```java
 public class UnionFindOptimizationByRank extends UnionFindQuickUnion {
     int[] rank; // 新增rank数组， 存放当前root树的高度
     UnionFindOptimizationByRank(int size) {
@@ -123,7 +123,7 @@ public class UnionFindOptimizationByRank extends UnionFindQuickUnion {
 }
 ```
 ### 人多势众，按当前集合元素数量合并
-```
+```java
 public static class UnionFindOptimizationByCount extends UnionFindQuickUnion {
     int[] count;
     UnionFindOptimizationByCount(int size) {
@@ -151,7 +151,7 @@ public static class UnionFindOptimizationByCount extends UnionFindQuickUnion {
 ## 路径压缩优化 实现
 针对`find`操作的优化，在`find`操作时，压缩已查找的路径，具体实现有两种，差距不大
 ### 完全压缩（递归）
-```
+```java
 public static class UnionFindOptimizationPathUpdateComplete extends UnionFindQuickUnion {
     UnionFindOptimizationPathUpdateComplete(int size) {
         super(size);
@@ -166,7 +166,7 @@ public static class UnionFindOptimizationPathUpdateComplete extends UnionFindQui
 }
 ```
 ### 隔代压缩（循环）
-```
+```java
 public static class UnionFindOptimizationPathUpdateGap extends UnionFindQuickUnion {
     UnionFindOptimizationPathUpdateGap(int size) {
         super(size);
@@ -184,7 +184,7 @@ public static class UnionFindOptimizationPathUpdateGap extends UnionFindQuickUni
 ## 终极优化 版本
 注：这里存在个人偏见
 路径压缩优化后是否还需要按秩合并存在一丢丢的争议，读者可自行斟酌
-```
+```java
 public static class UnionFindFinal {
     int[] root;
     int[] count;

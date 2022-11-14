@@ -28,7 +28,7 @@ Installing Node.js® and NPM is pretty straightforward using Homebrew. Homebrew 
 **Installation Steps:**
 Open the Terminal app and type 
 
-```
+```shell
 $ brew update 
 // This updates Homebrew with a list of the latest version of Node
 
@@ -37,7 +37,7 @@ $ brew install node
 ```
 
 **Test:**
-```
+```shell
 $ node -v 
 // This should print the version number of node, ike v0.10.31
 
@@ -46,7 +46,7 @@ $ npm -v
 ```
 
 ## Genernate Hexo Blog
-```
+```shell
 $ hexo init [folder] 
 // Initializes a website. If no folder is provided, Hexo will set up the website in the current directory
 $ hexo generate 
@@ -69,7 +69,7 @@ Genernally, following things:
 `$ git clone <theme-git-location> themes/<theme-name> `
 
 2. Change the theme property in the _config.yml file under your project
-```
+```yml
 # theme: landscape
 theme: cactus-light
 ```
@@ -84,11 +84,11 @@ theme: cactus-light
 This command is used to create a new article. If no layout is provided, Hexo will use the default_layout from _config.yml. If the title contains spaces, surround it with quotation marks.
 Then a new .md file will be created in '<your-project>/source/_posts' folder.
 Use any tool you like to edit it. After that, use the following steps:
-```
-hexo clean
-hexo generate
-hexo deploy
-hexo server
+```shell
+$ hexo clean
+$ hexo generate
+$ hexo deploy
+$ hexo server
 ```
 Now, you are able to see your new blog in [http://localhost:4000](http://localhost:4000).
 
@@ -101,7 +101,7 @@ Now, let's get back to your local environment from the web world.
 
 Edit '_config.yml' file in the root directory of your project.
 Change the deploy node like this:
-```
+```yml
 deploy:
      type: git
      repo: https://github.com/<your-user-name>/<your-user-name>.github.io.git
@@ -111,7 +111,7 @@ deploy:
 Now, it's time to deploy to the website.
 
 Hold on, type following code when you are ready.
-```
+```shell
 npm install hexo-deployer-git --save
 // This is install a package for deploying, you only need to type this once.
 hexo deploy
@@ -133,7 +133,7 @@ However, now you can only edit it in your computer. If you want to put the sourc
 Create another repository in Github, give it any name you like. Here, I will use 'you-like' as an Example.
 
 In the root directory of your project， type：
-```
+```shell
 $ git init
 // this will change your project to a git one.
 $ git remote add origin <your-repositoy-location>
@@ -158,7 +158,7 @@ Switch on the 'Build only if .travis.yml is present'.
 
 Now, let's get back to the repositroy in your computer.
 Add a new file '.travis.yml' in the root direction. This is for configuration of travis-ci.
-```
+```yml
 language: node_js
 node_js: stable
 install:

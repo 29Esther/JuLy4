@@ -254,10 +254,10 @@ highlight:
     light: Atom One Light
     dark: Atom One Dark
   auto_detect: false
-  line_number: true
+  line_number: false
   line_threshold: 0
   tab_replace: ''
-  wrap: true
+  wrap: false
   hljs: true
 
 # SEO

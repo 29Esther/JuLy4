@@ -1,5 +1,5 @@
 ---
-title: 图
+title: Graph 图
 date: 2021-12-18 18:33:56
 tags:
 - Algorithms
@@ -83,7 +83,7 @@ Steps:
 3. 更新U中各个顶点到起点s的距离。由于上一步中确定了k是求出最短路径的顶点，从而可以利用k来更新其它顶点的距离；例如，(s,v)的距离可能大于(s,k)+(k,v)的距离。
 4. 重复步骤(2)和(3)，直到遍历完所有顶点。
 
-```
+```java
 // 用一个数据结构，存储每一个节点的相邻节点和距离，也可以用int[]{next node index, distance}
 List<Map<Integer, Integer>> neighbors = new ArrayList<>(); 
 ...
@@ -128,7 +128,7 @@ There are two options:
 * P uses exactly i edges -> OPT(i-1, w)+Cwv
 
 #### Algorithm
-```
+```js
 Shortest-Path(G, t) { 
 	for each node v ∈ V
 		M[0,v] =  ∞ 
@@ -147,7 +147,7 @@ Shortest-Path(G, t) {
 #### Practical improvements
 * Maintain only one array M[v] = shortest v-t path that we have found so far. 
 * No need to check edges of the form (v, w) unless M[w] changed in previous iteration. 
-```
+```js
 Push-Based-Shortest-Path(G, s, t) { 
 	for each node v ∈ V {
 		M[v] = ∞
@@ -194,7 +194,7 @@ Steps:
 3. 重复步骤1-2直到队列为空
 
 
-```
+```java
 int[] indegrees = new int[n];
 List<List<Integer>> nexts = new ArrayList<>(); // 存储下一个节点，可以用Map
 for (int i = 0; i < n; i++) {
