@@ -1,4 +1,3 @@
-
 ---
 title: 动态规划
 date: 2022-09-25 18:33:56
@@ -153,7 +152,7 @@ return max
 * [265. Paint House II](https://leetcode.com/problems/paint-house-ii/)
 * [1473.Paint House III](https://leetcode.com/problems/paint-house-iii)
 * [813.Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages) 这题并不难，就是很烦
-* <class='hl'>[887.Super Egg Drop](https://leetcode.com/problems/super-egg-drop)</class> 测试题
+* [887.Super Egg Drop](https://leetcode.com/problems/super-egg-drop){.hl} 测试题
 * [975.Odd Even Jump](https://leetcode.com/problems/odd-even-jump) TreeMap
 * [403.Frog Jump](https://leetcode.com/problems/frog-jump)
 * [1478.Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes) 搞不定啊！能想到大概思路，但是实现有困难
@@ -175,6 +174,11 @@ return max
 * [72.Edit Distance](https://leetcode.com/problems/edit-distance)
 * [44.Wildcard Matching](https://leetcode.com/problems/wildcard-matching)
 * [10.Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) // todo
+
+## 其他
+### 问题
+* [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
+* [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
 
 ## 矩阵问题
 * [120.Triangle](https://leetcode.com/problems/triangle)
