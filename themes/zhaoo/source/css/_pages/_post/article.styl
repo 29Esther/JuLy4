@@ -67,9 +67,9 @@
         color var(--color-text-secondary)
         for $i in 1 .. 6
           h{$i}
-            font-size 1.6 - $i * 0.1 em
+            font-size 1.8 - $i * 0.2 em
             margin-bottom 1em
-            margin-top 2em
+            margin-top $i == 1 ? 2em : 1em
             color var(--color-text)
             font-weight bold
         p
@@ -83,8 +83,8 @@
             padding 2px 5px
             border-radius 2px
             color $color-link
-        .hl
-          background yellow
+        hl
+          background-color var(--color-highlight)
         a
           text-decoration underline
         .no-underline

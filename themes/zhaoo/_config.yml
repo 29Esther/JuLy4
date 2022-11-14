@@ -26,6 +26,8 @@ color:
   border-dark: '#2b3038'
   link: '#FF3B00'
   link-gradient: 'linear-gradient(-60deg, #ff5858 0%, #f09819 100%)'
+  highlight: '#ffeaa7'
+  highlight-dark: '#60a3bc'
 
 # Favicon
 favicon:
@@ -158,7 +160,8 @@ post_copyright:
 # Carrier（copy article with one click）
 carrier:
   enable: true
-  type: html # html | markdown | text
+  type: markdown # html | markdown | text
+  msg: 'Author: Zhixuan Li。 饮水不忘挖井人，记得点个赞呀喂！'
 
 # --------------------------------------------------
 # Page Settings
