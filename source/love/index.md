@@ -1,5 +1,6 @@
 ---
 title: Fancy Life with ZSX
+sitemap: false
 ---
 # 2019
 

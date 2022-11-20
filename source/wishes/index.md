@@ -2,6 +2,7 @@
 title: Esther's Wishes
 subtitle: 欢迎来到我的小花园，我在这里播种、浇水，期待花开的一天
 layout: wishes
+sitemap: false
 ---
 # February
 * 继续找实习啊啊啊啊！

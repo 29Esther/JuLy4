@@ -88,3 +88,13 @@ highlight:
 #   field: post  # post page all
 #   format: html  # 只支持 html 类型
 #   content: true  # 是否包含正文内容
+
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap/sitemap_template.xml
+  template_txt: ./sitemap/sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
