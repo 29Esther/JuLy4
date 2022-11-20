@@ -1,7 +1,9 @@
 <%
 var keywords = '';
 var description = '';
+var cur_is_home = '';
 (function() {
+  if (is_home()) cur_is_home = "True"
   if (config.keywords) {
     keywords += config.keywords;
   }
@@ -21,6 +23,8 @@ var description = '';
 <!DOCTYPE html>
 <html lang="en" <%- theme.color_mode.enable || false ? `color-mode=light` : `` %>>
 <head>
+  <%- cur_is_home ? `<meta name="google-site-verification" content="OgfgMZUnK27FGzIh47HhX8leMaj_O8c2i063UBEQrCg">` : null %>
+  
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
