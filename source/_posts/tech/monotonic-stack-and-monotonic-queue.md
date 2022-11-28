@@ -146,7 +146,6 @@ categories:
     时间复杂度为 O(n)，因为每个元素，我们最多处理一次。
     空间复杂度为 O(n)，因为我们需要一个栈来存储元素，最大为数组长度。
   </collapsible-content>
-
 * [2104. Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) 
   <button type="button" class="collapsible">一些理解</button>
   <collapsible-content>
@@ -213,7 +212,6 @@ categories:
     }
     ```
   </collapsible-content>
-
 * [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
   <button type="button" class="collapsible">一些理解</button>
   <collapsible-content>
@@ -262,7 +260,6 @@ categories:
 
     这样时间/空间复杂度为O(n)，因为对于每一个index，我们最多处理一次。
   </collapsible-content>
-
 * [1504. Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)
   <button type="button" class="collapsible">一些理解</button>
   <collapsible-content>
@@ -302,7 +299,6 @@ categories:
     }
     ```
   </collapsible-content>
-
 * [2297. Jump Game VIII](https://leetcode.com/problems/jump-game-viii/)
   <button type="button" class="collapsible">一些理解</button>
   <collapsible-content>
@@ -367,7 +363,6 @@ categories:
     }
     ```
   </collapsible-content>
-
 * [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) // todo
   <button type="button" class="collapsible">一些理解</button>
   <collapsible-content>
@@ -375,9 +370,8 @@ categories:
     所以，在使用单调栈的过程中，我们要学会变通，抓主要矛盾，灵活使用。
   </collapsible-content>
 
-* [456. 132 Pattern](https://leetcode.com/problems/132-pattern/) [我的理解]()
-
 ### 其他练习
+* [456. 132 Pattern](https://leetcode.com/problems/132-pattern/) 值得练习哦，单独po了一个页[我的理解](https://esther.fun/tech/leetcode-132-pattern/)
 * [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) 在前面496的基础上增加环形的要求，但是还是基本的单调栈，思考难度不高
 * [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) 种类题偏简单，想清楚即可
 * [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) 用单调栈可以解决的问题，但是可能还有更好的办法哦

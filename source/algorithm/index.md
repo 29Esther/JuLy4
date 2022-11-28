@@ -20,6 +20,8 @@ image: ../pics/about/algorithm.jpeg
 * Binary Index Tree
 * 最小生成树
 
+## [Leetcode 练习](https://esther.fun/tags/Leetcode/)
+
 # 思路提示
 * Input Array is Sorted
   - Binary Search: O(log n)
