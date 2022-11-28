@@ -1,5 +1,5 @@
 ---
-title: [Leetcode] 456. 132 Pattern
+title: 【Leetcode】456. 132 Pattern
 date: 2022-11-28 18:33:56
 tags:
 - Algorithms

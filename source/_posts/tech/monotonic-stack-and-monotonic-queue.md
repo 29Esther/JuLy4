@@ -375,6 +375,8 @@ categories:
     所以，在使用单调栈的过程中，我们要学会变通，抓主要矛盾，灵活使用。
   </collapsible-content>
 
+* [456. 132 Pattern](https://leetcode.com/problems/132-pattern/) [我的理解]()
+
 ### 其他练习
 * [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) 在前面496的基础上增加环形的要求，但是还是基本的单调栈，思考难度不高
 * [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) 种类题偏简单，想清楚即可
