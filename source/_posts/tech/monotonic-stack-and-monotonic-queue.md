@@ -17,8 +17,8 @@ categories:
 ## 简单题入手
 ### 例题
 * [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)
-  <button type="button" class="collapsible">一些理解</button>
-  <collapsible-content>
+  <button type="button" class="collapsible" name="1475">一些理解</button>
+  <collapsible-content name="content-1475">
     这题一道比较典型的单调栈问题, 由于我们只需要找到右侧第一个小于当前数的数，我们有两种遍历方式：1. 从左往右遍历，栈中维护之前数字的index，如果之前的数大于当前数，我们那弹出并更新前一个数的答案；2. 从右往左遍历，栈中维护已遇到的数字，如果当前数小于之前的数字，则一直弹出，直到遇到一个小于当前数的数字，或者栈为空，得出当前答案。
     ```java
     // 方法一
@@ -51,9 +51,10 @@ categories:
     }
     ```
   </collapsible-content>
+
 * [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
-  <button type="button" class="collapsible">一些理解</button>
-  <collapsible-content>
+  <button type="button" class="collapsible" name="739">一些理解</button>
+  <collapsible-content name="content-739">
     这题用单调栈的解法很直接，与上面两题相似，正反遍历都可以，但是比较有意思的地方是用数组优化空间的第二解法，以后遇到类似的题，可以考虑灵活运用。
     ```java
     public int[] dailyTemperatures(int[] temperatures) {
@@ -98,8 +99,8 @@ categories:
 ## 中等题练手
 ### 例题
 * [1950. Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays/) 
-  <button type="button" class="collapsible">一些理解</button>
-  <collapsible-content>
+  <button type="button" class="collapsible" name="1950">一些理解</button>
+  <collapsible-content name="content-1950">
     答案一定是非递增的数列。
 
     首先上Brute Force大法，考虑所有的子数组，时间复杂度是O(n^2)，空间复杂度为O(1)。
@@ -146,13 +147,18 @@ categories:
     时间复杂度为 O(n)，因为每个元素，我们最多处理一次。
     空间复杂度为 O(n)，因为我们需要一个栈来存储元素，最大为数组长度。
   </collapsible-content>
+
 * [2104. Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) 
-  <button type="button" class="collapsible">一些理解</button>
-  <collapsible-content>
+  <button type="button" class="collapsible" name="2104">一些理解</button>
+  <collapsible-content name="content-2104">
     上一题的进阶版
+
     这题花了我很久的时间，主要难点在于如何把题目转换成一道单调栈的题目（多数题的难点）。
+
     我们先用Brute Force进行思考，考虑所有的子数组，用`min`和`max`来记录当前数组的最小值和最大值，时间复杂度是O(n^2)，空间复杂度为O(1)。
+
     想想是否有优化空间，其实，答案 = ∑(子数组的差值) = ∑(子数组最大值 - 子数组最小值) = ∑子数组最大值 - ∑子数组最小值。所以，我们可以用两个Queue来计算数组最大值的和，以及数组最小值的和。
+
     考虑nums=[4,-2,-3,5,1]的情况。
     先看最小值，每个数字至少有一次成为数组最小值的机会，用最大值`5`来说，在`[5]`这个子数组中，它是最小值，那考虑最小值`-3`来说，它在`[-3], [-2,-3], [-3,5], [4,-2,-3], [-2,-3,5], [-3,5,1], [4,-2,-3,5], [-2,-3,5,1], [4,-2,-3,5,1]`，这9个子数组中都是最小值，所以`∑子数组最小值`中有9个`-3`和1个`5`。如何得出这个9和1呢？我们可以利用单调栈。
 
@@ -212,10 +218,12 @@ categories:
     }
     ```
   </collapsible-content>
+
 * [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
-  <button type="button" class="collapsible">一些理解</button>
-  <collapsible-content>
+  <button type="button" class="collapsible" name="84">一些理解</button>
+  <collapsible-content name="content-84">
     这题也有点复杂，如何利用单调栈，降低时间复杂度。
+
     还是首先考虑Brute Force，可以用从左往右遍历数组，对于每一个index，考虑它作为高度的情况下，矩阵宽为多少，考虑所有情况取最大值就好了。时间复杂度为O(n^2)，空间复杂度为O(n)，其实还挺好的。
 
     ```java
@@ -260,9 +268,10 @@ categories:
 
     这样时间/空间复杂度为O(n)，因为对于每一个index，我们最多处理一次。
   </collapsible-content>
+
 * [1504. Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)
-  <button type="button" class="collapsible">一些理解</button>
-  <collapsible-content>
+  <button type="button" class="collapsible" name="1504">一些理解</button>
+  <collapsible-content name="content-1504">
     在上题的基础上，把问题变得稍微复杂一些，变化有：
         1. Histogram不是直接给定的，需要用一个数组维护；
         2. 需要计算所有的矩阵数量，不只是最大的那一个
@@ -299,9 +308,10 @@ categories:
     }
     ```
   </collapsible-content>
+
 * [2297. Jump Game VIII](https://leetcode.com/problems/jump-game-viii/)
-  <button type="button" class="collapsible">一些理解</button>
-  <collapsible-content>
+  <button type="button" class="collapsible" name="2297">一些理解</button>
+  <collapsible-content name="content-2297">
     这道题烦在理解题目意思上。
 
     首先，可以明确的是，我们只能往后跳，不能回头。如果i点可以到达j点，那么i，j需要满足题目给定的两个条件之一。这两个条件是独立的，不可能有一个点既满足条件1，又满足条件2。所以，我们可以把这两个条件独立进行思考。
@@ -363,9 +373,10 @@ categories:
     }
     ```
   </collapsible-content>
+
 * [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) // todo
-  <button type="button" class="collapsible">一些理解</button>
-  <collapsible-content>
+  <button type="button" class="collapsible" name="962">一些理解</button>
+  <collapsible-content name="content-962">
     这道题同样使用单调栈，但是又有一些不同。常规单调栈，我们会遍历数组，对于每一个元素进行处理和答案更新，但是，在这道题中，1. 我们并不关心所有元素，只把特定的元素加入栈中；2. 第一遍遍历，我们先组建栈，在第二步遍历时，我们才寻找答案。
     所以，在使用单调栈的过程中，我们要学会变通，抓主要矛盾，灵活使用。
   </collapsible-content>

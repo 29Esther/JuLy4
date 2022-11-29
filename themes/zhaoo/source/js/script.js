@@ -267,17 +267,23 @@
     collapsible: function() {
       $(".collapsible").on("click", function() {
         this.classList.toggle("expanded");
-        var content = this.nextSibling;
-        while (content) {
-          if (content.matches('collapsible-content')) break;
-          content = content.nextSibling;
-        }
+        var name = this.getAttribute("name");
+        var content = document.querySelector('[name="content-' + name + '"]');
+        
+        if (!content || !content.matches('collapsible-content')) return;
+
+        var parent = this.parentElement;
         if (content && content.style.maxHeight){
           content.style.display = "none";
           content.style.maxHeight = null;
+          var value = content.style.marginBottom;
+          parent.style.marginBottom = value;
         } else {
           content.style.display = "block";
           content.style.maxHeight = content.scrollHeight + "px";
+          var value = getComputedStyle(parent).marginBottom;
+          content.style.marginBottom = value;
+          parent.style.marginBottom = 0;
         }
       });
     },
