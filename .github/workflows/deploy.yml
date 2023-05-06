@@ -52,8 +52,6 @@ jobs:
           leancloud_appId: ${{secrets.LEANCLOUD_APPID}}
           leancloud_appKey: ${{secrets.LEANCLOUD_APPKEY}}
         run: |
-          echo $leancloud_appId
-          echo $leancloud_appKey
           npm install js-yaml
           com="const fs = require('fs');const yaml = require('js-yaml');let f = fs.readFileSync('./themes/zhaoo/_config.yml', 'utf8');let y = yaml.load(f);y['leancloud']['appId'] = '$leancloud_appId'; y['leancloud']['appKey'] = '$leancloud_appKey'; y['valine']['appId'] = '$leancloud_appId'; y['valine']['appKey'] = '$leancloud_appKey';let yamlStr = yaml.dump(y);fs.writeFileSync('themes/zhaoo/_config.yml', yamlStr, 'utf8');"
           echo $com > modify_yaml_script.js
@@ -66,7 +64,3 @@ jobs:
       - name: Deploy hexo
         run: |
           npm run deploy
-          
-      - name: Add CNAME
-        run: |
-          ls -a
