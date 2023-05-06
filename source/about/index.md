@@ -10,12 +10,10 @@ Name: **Zhixuan Li**
 Nick Name: **Esther**  
 Prons: **She/her/hers**
 
-> I named myself **Esther** when I was 15 for my English class. I was looking for a special name, not too complex nor too common. I referred to a website, which suggests English name for girls. There, it wrote: the name originates from Greek with the meaning **star**. Somehow, I chose it without further considerations. Untill recent, I noticed that this name is known from the Jewish queen Esther, eponymous heroine of the Book of Esther.
-
 # Education
 #### M.S.ing in Computer Science
 School: **University of California - Davis**, California, United States
-Time: **Mar. 2021 - Present**
+Time: **Mar. 2021 - Dec. 2022**
 Overall GPA: **4.0/4.0**
 
 #### B.E. in Software Engineering
@@ -28,10 +26,34 @@ School: **Universität Politècnica de Catalunya**, Barcelona, Spain
 Time: **Sept. 2014 - Jan. 2015**
 
 # Work Experience
-#### Developer in SAP (China) Co. LTD
-Company: **SAP (China) Co. LTD, Shanghai, China**
+#### Software Engineer @ Google
+Company: **Google LLC.**
+Time: **Jan 2023 - Present**
+Team: **Google Cloud Platform (GCP) API Platform**
+Location: **Kirkland, Washington, U.S.**
+Description:
+* Develop and maintain services to manage compute resources on Google Cloud Platform (GCP) across data centers.
+* Build the core infrastructure for GCP that delivers scalable, robust and secure services, impacting all customers.
+* Collaborate with the networking, storage teams to support flexible customer requirements with reliable integration.
+* Write utility scripts to help migration services between different protocols and reducing manual works.
+
+#### Software Engineer Intern @ Meta
+Company: **Meta Platforms, Inc. (Former: Facebook)**
+Time: **June 2022 - Sept. 2022**
+Team: **Conveyor**
+Location: **Boston, Massachusetts, U.S.**
+Description:
+* Enhanced access controls over customized CI/CD extensions used by 90% of the backend jobs at Meta.
+* Wrote methods to log users' actions (who - what - when) by utilizing GraphQL and MySQL for security monitoring.
+* Built an end-to-end scenario for users to analyze manual interventions in pipelines and get alerted for abnormalities.
+* Implemented queryable endpoints with Thrift for language-agnostic communications between internal services
+* Coded unit tests for each testable function to ensure a stable experience for ~27k developers.
+
+#### Senior Developer @ SAP
+Company: **SAP (China) Co. LTD**
 Time: **June 2016 - Sept. 2021**
-Title: **Manufacturing Department - Developer**
+Team: **Digital Manufacturing**
+Location: **Shanghai, China**
 Description:
 * Building scalable SAAS applications on Cloud Foundry to help customers in digital and intelligent manufacturing.
 * Designing and developing new features and providing timely maintenance on existing code including UI, backend services, database queries, and code optimization.
@@ -41,6 +63,21 @@ Description:
 
 # Project Experience
 ## Work Project
+#### [Google Cloud Platform (GCP) Compute Engine API](https://cloud.google.com/compute/docs/reference/rest/v1)
+Time: **Jan. 2023 - Present**
+Description: **Compute Engine is a computing and hosting service that enables customers to create and run virtual machines on Google infrastructure. Compute Engine offers scale, performance, and value based on Google's infrastructure.**
+Skills: **Java, App Framework, Python**
+
+#### [SAP Digital Manufacturing Cloud](https://www.sap.com/products/scm/digital-manufacturing-cloud.html)
+Time: **Jan. 2018 - Sept. 2021**
+Description: **Digital Manufacturing Cloud is a cloud-based and advanced Manufacturing Execution System (MES) that enables production processes' management with the latest technologies, like Machine Learning and Digital Twins. Service Registry is a submodule for shop floor extension control, where customers can register any service and plug them into the product line seamlessly. The product served ~50 companies in ~10 countries.**
+Skills: **Java, Spring Framework, SAP UI5, Javascript**
+
+#### [SAP Distributed Manufacturing](https://help.sap.com/docs/SAP_DISTRIBUTED_MANUFACTURING)
+Time: **June 2016 - Dec. 2018**
+Description: **SAP Distributed Manufacturing provides a cloud-based collaborative platform that connects customers with suppliers of 3D printing services, material providers, OEMs and technical certification companies. It is one of the first-generation cloud application in Labs China.**
+Skills: **Java, Spring Framework, SAP UI5, Javascript**
+
 ## School Project
 #### [Tag the Object](https://github.com/YuangMa/TagTheObject)
 Time: **Jan. 2022 - Mar. 2022**

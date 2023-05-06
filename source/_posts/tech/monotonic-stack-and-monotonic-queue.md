@@ -15,7 +15,10 @@ categories:
 实现的话，一般使用原生栈，`Stack in Java`，或者，手动单头操作队列
 
 ## 简单题入手
-### 例题
+简单题简单在直接明了，一般都有很明显的提示，寻找单侧下一个最大/小值。
+### 求具体数值
+栈内既可以放index，又可以放value
+例题：
 * [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)
   <button type="button" class="collapsible" name="1475">一些理解</button>
   <collapsible-content name="content-1475">
@@ -52,6 +55,13 @@ categories:
     ```
   </collapsible-content>
 
+练习：
+* [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+* [1063. Number of Valid Subarrays](https://leetcode.com/problems/number-of-valid-subarrays/description/) 不关心位置，只关心数值，直接在栈中存放数值，简单直接
+
+### 关心index/index之间的差距/数字统计
+栈内存放index
+例题：
 * [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
   <button type="button" class="collapsible" name="739">一些理解</button>
   <collapsible-content name="content-739">
@@ -89,15 +99,22 @@ categories:
     ```
   </collapsible-content>
 
-### 其他练习
-* [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
-* [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) 简单，与上两题解法的类似
-* [1762. Buildings With an Ocean View](https://leetcode.cn/problems/buildings-with-an-ocean-view/) 我在面Meta时遇到的原题，用Stack很简单，但是，由于题目的特殊性，还有更简单的！
+练习：
 * [1944. Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) 基础操作啊，兄弟萌，搞定这道‘Hard’题，是不是信心暴涨？
-* [2282. Number of People That Can Be Seen in a Grid](https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid/) 上一题的复杂版，增加了一种情况而已，都一样啦
+* [2282. Number of People That Can Be Seen in a Grid](https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid/) 上一题的复杂版，增加了一种情况，都一样啦
+* [1762. Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/) 我在面Meta时遇到的原题，用Stack很简单，但是，由于题目的特殊性，还有更简单的！
+
+### 复合结构
+有的时候index和value都需要，那么我们可以灵活运用：1. 栈内存放index，利用数组取值；2. 栈内直接存放复合结构。
+练习：
+* [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
+
 
 ## 中等题练手
-### 例题
+### 求区间最大最小值
+单调栈中存放index，然后利用单调性找到最大最小区间
+
+例题：
 * [1950. Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays/) 
   <button type="button" class="collapsible" name="1950">一些理解</button>
   <collapsible-content name="content-1950">
@@ -219,6 +236,14 @@ categories:
     ```
   </collapsible-content>
 
+练习：
+* [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/) 相同套路，也可以用双指针
+* [1856. Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)
+* [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
+* [2334. Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/)
+
+### 结合数组，简化二维问题
+例题：
 * [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
   <button type="button" class="collapsible" name="84">一些理解</button>
   <collapsible-content name="content-84">
@@ -268,7 +293,6 @@ categories:
 
     这样时间/空间复杂度为O(n)，因为对于每一个index，我们最多处理一次。
   </collapsible-content>
-
 * [1504. Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)
   <button type="button" class="collapsible" name="1504">一些理解</button>
   <collapsible-content name="content-1504">
@@ -309,6 +333,11 @@ categories:
     ```
   </collapsible-content>
 
+练习：
+* [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) 
+
+### 使用多个单调栈
+例题：
 * [2297. Jump Game VIII](https://leetcode.com/problems/jump-game-viii/)
   <button type="button" class="collapsible" name="2297">一些理解</button>
   <collapsible-content name="content-2297">
@@ -374,6 +403,13 @@ categories:
     ```
   </collapsible-content>
 
+
+练习：
+* [2454. Next Greater Element IV](https://leetcode.com/problems/next-greater-element-iv/)
+
+
+### 将记录和计算步骤分开
+例题：
 * [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) // todo
   <button type="button" class="collapsible" name="962">一些理解</button>
   <collapsible-content name="content-962">
@@ -381,44 +417,43 @@ categories:
     所以，在使用单调栈的过程中，我们要学会变通，抓主要矛盾，灵活使用。
   </collapsible-content>
 
+练习：
+* [1673. Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
+ 
 ### 其他练习
 * [456. 132 Pattern](https://leetcode.com/problems/132-pattern/) 值得练习哦，单独po了一个页[我的理解](https://esther.fun/tech/leetcode-132-pattern/)
 * [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) 在前面496的基础上增加环形的要求，但是还是基本的单调栈，思考难度不高
 * [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) 种类题偏简单，想清楚即可
 * [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) 用单调栈可以解决的问题，但是可能还有更好的办法哦
-* [1673. Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/) // todo
 * [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) 这题用单调栈没有递归直接，需要一些理解
 * [2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) 需要考虑更多的情况，值得练习 todo
 * [1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) 这题需要把题目意思转换成一个stack的问题，理解力+技巧
 * [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) = [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) 变身妙蛙种子，直呼妙蛙妙蛙 //[todo]
+* [2030. Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) 进阶版
 * [853. Car Fleet](https://leetcode.com/problems/car-fleet/) 挺有趣的，转换之后就很简单啦
+* [1776. Car Fleet II](https://leetcode.com/problems/car-fleet-ii/) 配套系列，另一个角度
 * [255. Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) 是一道很好的单调栈应用题 todo
-* [1856. Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/) 前两道例题的练习，一模一样的套路
-* [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) 前两道例题的练习，一模一样的套路
+
+* [2281. Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/) 进阶版
 * [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/) 基础题，普通操作
+* [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) 经典题，单独po了一个页[我的理解](https://esther.fun/tech/leetcode-trapping-rain-water/) todo
+* [768. Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)
+
 
 ## 难题上手
-
+[975. Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)
+[321. Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)
 
 
 1671. Minimum Number of Removals to Make Mountain Array
 1425. Constrained Subsequence Sum
-
-907. Sum of Subarray Minimums
 856. Score of Parentheses
-84. Largest Rectangle in Histogram
-42. Trapping Rain Water
 
-84 Largest Rectangle in Histogram
 214 Shortest Palindrome
 239 Sliding Window Maximum
 
 321 Create Maximum Number
-402 Remove K Digits
-456 132 Pattern
 
-739. Daily Temperatures
-768 Max Chunks To Make Sorted II
 862 Shortest Subarray with Sum at Least K
 889 Construct Binary Tree from Preorder and Postorder Traversalhttps://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)
 

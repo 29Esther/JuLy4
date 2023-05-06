@@ -10,7 +10,7 @@ A: Action 采取行动
 R: Result 结果与收获
 
 # SMART 方案: 量化方法
-S: Specific 具体的
+S: Specific 具体的，成绩应当是具体的
 M: Measuable 可测量的
 Action-oriented: 行动导向
 R: Realistic 现实的
