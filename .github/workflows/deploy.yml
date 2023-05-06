@@ -46,7 +46,6 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.name $GIT_USER
           git config --global user.email $GIT_EMAIL
-          cp _config.theme.yml themes/concise/_config.yml
           
       - name: Config LeanCloud
         env:
@@ -65,3 +64,7 @@ jobs:
       - name: Deploy hexo
         run: |
           npm run deploy
+          
+      - name: Add CNAME
+        run: |
+          ls -a
