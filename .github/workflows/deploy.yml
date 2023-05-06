@@ -27,7 +27,7 @@ jobs:
       - name: Checkout deploy repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_PAT }}
+          token: ${{secrets.HEXO_DEPLOY_PRI}}
           repository: ${{ env.DEPLOY_REPO }}
           ref: ${{ env.DEPLOY_BRANCH }}
           path: .deploy_git
