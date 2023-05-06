@@ -13,7 +13,7 @@ env:
 
 jobs:
   build:
-    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    name: Build on node ${{matrix.node_version}} and ${{matrix.os}}
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -27,15 +27,15 @@ jobs:
       - name: Checkout deploy repo
         uses: actions/checkout@v3
         with:
-          token: ${{secrets.HEXO_DEPLOY_PRI}}
-          repository: ${{ env.DEPLOY_REPO }}
-          ref: ${{ env.DEPLOY_BRANCH }}
+          token: ${{secrets.GH_PAT}}
+          repository: ${{env.DEPLOY_REPO}}
+          ref: ${{env.DEPLOY_BRANCH}}
           path: .deploy_git
 
-      - name: Use Node.js ${{ matrix.node_version }}
+      - name: Use Node.js ${{matrix.node_version}}
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node_version }}
+          node-version: ${{matrix.node_version}}
 
       - name: Configuration environment
         env:

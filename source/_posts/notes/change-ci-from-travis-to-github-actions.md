@@ -14,6 +14,10 @@ tags:
 1. 在`_config.yml`中把`repo`值从`http`改为`ssh`地址，加上hexo-deployer-git 依赖包
 2. 按照[sma11black/hexo-action](https://github.com/sma11black/hexo-action#step-1-setup-deploy-keys-and-secrets)的提示，把public key加入到目标repo的deploy key中
 
+顺便阅读了一下[sma11black/hexo-action](https://github.com/sma11black/hexo-action#step-1-setup-deploy-keys-and-secrets)里的其他建议：
+* 把CNAME加在了resource文件之下，这样就不用每次提交的时候在script里面加啦
+* 把`29esther.github.io`改为private repo可以隐藏原文件啦，不过这一步，需要多加一个PSA，步骤在[这里](https://github.com/actions/checkout#Checkout-multiple-repos-private)
+
 一切就正常工作啦。可以把travis config删掉啦。
 想要关掉travis的账号，结果发现travis.ci用户删除必须[发邮件给他们](https://travis-ci.community/t/account-removal/13164)，只是太low了，懒得麻烦，账号就留着吧，从github这头，能删的删删吧。
 
