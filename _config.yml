@@ -63,7 +63,7 @@ theme: zhaoo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/29Esther/29esther.github.io
+  repo: git@github.com:29Esther/29esther.github.io.git
   branch: master
 
 # index_generator:
