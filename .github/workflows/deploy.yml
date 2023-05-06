@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  GIT_USER: 29Esther
+  GIT_EMAIL: yaojingshuihudie@163.com
+  DEPLOY_REPO: 29Esther/29esther.github.io
+  DEPLOY_BRANCH: master
+
+jobs:
+  build:
+    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node_version: [16.x]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Checkout deploy repo
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ env.DEPLOY_REPO }}
+          ref: ${{ env.DEPLOY_BRANCH }}
+          path: .deploy_git
+
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - name: Configuration environment
+        env:
+          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name $GIT_USER
+          git config --global user.email $GIT_EMAIL
+          cp _config.theme.yml themes/concise/_config.yml
+          
+      - name: Config LeanCloud
+        env:
+          leancloud_appId: ${{secrets.LEANCLOUD_APPID}}
+          leancloud_appKey: ${{secrets.LEANCLOUD_APPKEY}}
+        run: |
+          npm install js-yaml
+          com="const fs = require('fs');const yaml = require('js-yaml');let f = fs.readFileSync('./themes/zhaoo/_config.yml', 'utf8');let y = yaml.load(f);y['leancloud']['appId'] = '$leancloud_appId'; y['leancloud']['appKey'] = '$leancloud_appKey'; y['valine']['appId'] = '$leancloud_appId'; y['valine']['appKey'] = '$leancloud_appKey';let yamlStr = yaml.dump(y);fs.writeFileSync('themes/zhaoo/_config.yml', yamlStr, 'utf8');"
+          echo $com > modify_yaml_script.js
+          node modify_yaml_script.js
+
+      - name: Install dependencies
+        run: |
+          npm install
+
+      - name: Deploy hexo
+        run: |
+          npm run deploy
