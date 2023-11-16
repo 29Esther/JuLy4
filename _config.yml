@@ -3,7 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HELLO_E$THER
+# title: HELLO_E$THER
+title: 技术生活分享
 subtitle: 你像夏天的风，我未追完的梦
 description:
 author: Esther Li
